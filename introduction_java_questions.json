@@ -1,0 +1,3048 @@
+{
+  "theme": "Introduction au Java",
+  "questions": [
+    {
+      "fr": {
+        "question": "Qu'est-ce que Java ?",
+        "réponse": "Java est un langage de programmation de haut niveau, robuste, orienté objet et sécurisé. Il a été développé par Sun Microsystems (désormais filiale d'Oracle) en 1995. Java est à la fois un langage de programmation et une plateforme, car il possède son propre environnement d'exécution (JRE) et une API riche."
+      },
+      "en": {
+        "question": "What is Java?",
+        "answer": "Java is a high-level, robust, object-oriented, and secure programming language. It was developed by Sun Microsystems (now a subsidiary of Oracle) in 1995. Java is both a programming language and a platform because it has its own runtime environment (JRE) and a rich API."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qui a inventé Java et pourquoi ?",
+        "réponse": "James Gosling est reconnu comme le père de Java. Le projet a été lancé pour créer une technologie multiplateforme permettant aux applications de fonctionner sur divers appareils électroniques. Initialement appelé 'Oak', le langage a été renommé 'Java' après la découverte qu'une autre entreprise utilisait déjà le nom Oak."
+      },
+      "en": {
+        "question": "Who invented Java and why?",
+        "answer": "James Gosling is known as the father of Java. The project was initiated to create a cross-platform technology allowing applications to run on various electronic devices. Initially called 'Oak,' the language was renamed 'Java' after discovering that another company already used the name Oak."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie le terme plateforme dans le contexte de Java ?",
+        "réponse": "En Java, une plateforme désigne tout environnement matériel ou logiciel dans lequel un programme peut s'exécuter. Java est considéré comme une plateforme car il fournit un environnement d'exécution (Java Runtime Environment - JRE) et une API de développement étendue."
+      },
+      "en": {
+        "question": "What does the term platform mean in the context of Java?",
+        "answer": "In Java, a platform refers to any hardware or software environment where a program can run. Java is considered a platform because it provides a Java Runtime Environment (JRE) and a comprehensive development API."
+      }
+    },
+    {
+      "fr": {
+        "question": "Montrez un exemple simple de programme Java.",
+        "réponse": "Voici un exemple de programme Java simple affichant 'Bonjour le monde!':\n\n```java\npublic class Principal {\n    public static void main(String[] args) {\n        System.out.println(\"Bonjour le monde!\");\n    }\n}\n```"
+      },
+      "en": {
+        "question": "Show a simple Java program example.",
+        "answer": "Here is a simple Java program that prints 'Hello World!':\n\n```java\npublic class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World!\");\n    }\n}\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels outils sont nécessaires pour développer en Java ?",
+        "réponse": "Pour développer en Java, il faut installer le JDK (Java Development Kit), qui contient le compilateur Java, la JVM et divers outils de développement. Ensuite, un éditeur de texte ou un environnement de développement intégré (IDE) comme Eclipse, IntelliJ IDEA ou NetBeans est recommandé pour faciliter le codage, le débogage et la gestion des projets."
+      },
+      "en": {
+        "question": "What tools are needed to develop in Java?",
+        "answer": "To develop in Java, you need to install the JDK (Java Development Kit), which includes the Java compiler, the JVM, and various development tools. Then, a text editor or an integrated development environment (IDE) like Eclipse, IntelliJ IDEA, or NetBeans is recommended to ease coding, debugging, and project management."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels types d'applications peut-on créer avec Java ?",
+        "réponse": "Java permet de créer divers types d'applications, notamment :\n- Applications autonomes (applications de bureau)\n- Applications web dynamiques\n- Applications d'entreprise distribuées\n- Applications mobiles\n- Applications embarquées pour systèmes spécifiques\n- Jeux et solutions robotiques."
+      },
+      "en": {
+        "question": "What types of applications can be created with Java?",
+        "answer": "Java enables the creation of various types of applications, including:\n- Standalone applications (desktop applications)\n- Dynamic web applications\n- Distributed enterprise applications\n- Mobile applications\n- Embedded systems applications\n- Games and robotic solutions."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelles sont les différentes éditions de Java ?",
+        "réponse": "Java se décline en quatre principales éditions :\n1. Java SE (Standard Edition) : pour le développement d'applications de bureau et serveur de base.\n2. Java EE (Enterprise Edition) : pour les applications d'entreprise et web à grande échelle.\n3. Java ME (Micro Edition) : pour le développement d'applications mobiles et embarquées.\n4. JavaFX : pour le développement d'applications internet riches avec interfaces graphiques modernes."
+      },
+      "en": {
+        "question": "What are the different editions of Java?",
+        "answer": "Java comes in four main editions:\n1. Java SE (Standard Edition): for developing basic desktop and server applications.\n2. Java EE (Enterprise Edition): for large-scale enterprise and web applications.\n3. Java ME (Micro Edition): for developing mobile and embedded applications.\n4. JavaFX: for developing rich internet applications with modern graphical interfaces."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la JVM ?",
+        "réponse": "La JVM (Java Virtual Machine) est une machine virtuelle qui permet d'exécuter les programmes Java. Elle convertit le bytecode Java en instructions compréhensibles par le système d'exploitation sous-jacent."
+      },
+      "en": {
+        "question": "What is the JVM?",
+        "answer": "The JVM (Java Virtual Machine) is a virtual machine that enables Java programs to run. It translates Java bytecode into instructions understandable by the underlying operating system."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que le bytecode en Java ?",
+        "réponse": "Le bytecode est un code intermédiaire généré par le compilateur Java (.class) que la JVM interprète ou compile dynamiquement pour exécuter un programme Java."
+      },
+      "en": {
+        "question": "What is bytecode in Java?",
+        "answer": "Bytecode is an intermediate code generated by the Java compiler (.class) that the JVM interprets or dynamically compiles to run a Java program."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi Java est-il indépendant de la plateforme ?",
+        "réponse": "Java est indépendant de la plateforme grâce au concept de bytecode et de la JVM. Un programme Java compilé peut être exécuté sur n'importe quel système équipé d'une JVM compatible."
+      },
+      "en": {
+        "question": "Why is Java platform-independent?",
+        "answer": "Java is platform-independent due to its use of bytecode and the JVM. A compiled Java program can run on any system with a compatible JVM."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la différence entre JDK, JRE et JVM ?",
+        "réponse": "JDK (Java Development Kit) est l'outil complet pour développer et exécuter des applications Java. JRE (Java Runtime Environment) contient seulement l'environnement nécessaire pour exécuter Java. JVM (Java Virtual Machine) exécute le bytecode spécifique à chaque plateforme."
+      },
+      "en": {
+        "question": "What is the difference between JDK, JRE, and JVM?",
+        "answer": "The JDK (Java Development Kit) is the complete tool for developing and running Java applications. The JRE (Java Runtime Environment) contains only the environment needed to run Java. The JVM (Java Virtual Machine) runs the platform-specific bytecode."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels sont les avantages d'utiliser Java ?",
+        "réponse": "Les avantages de Java incluent : portabilité, sécurité, robustesse, grande communauté de développeurs, riche ensemble de bibliothèques, multithreading intégré, haute performance grâce au Just-In-Time Compiler (JIT)."
+      },
+      "en": {
+        "question": "What are the advantages of using Java?",
+        "answer": "Advantages of Java include: portability, security, robustness, a large developer community, a rich set of libraries, built-in multithreading, and high performance thanks to the Just-In-Time Compiler (JIT)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que 'Write Once, Run Anywhere' signifie en Java ?",
+        "réponse": "Cela signifie qu'une fois qu'un programme est écrit et compilé en bytecode Java, il peut être exécuté sur toute plateforme disposant d'une JVM sans avoir besoin de modifications."
+      },
+      "en": {
+        "question": "What does 'Write Once, Run Anywhere' mean in Java?",
+        "answer": "'Write Once, Run Anywhere' means that once a program is written and compiled into Java bytecode, it can run on any platform with a JVM without needing modifications."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la garbage collection en Java ?",
+        "réponse": "La garbage collection (GC) est un processus automatique en Java qui libère la mémoire occupée par des objets qui ne sont plus accessibles, améliorant ainsi la gestion mémoire sans intervention du programmeur."
+      },
+      "en": {
+        "question": "What is garbage collection in Java?",
+        "answer": "Garbage collection (GC) is an automatic process in Java that frees memory occupied by objects that are no longer accessible, thus improving memory management without programmer intervention."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une classe en Java ?",
+        "réponse": "Une classe en Java est un modèle ou un plan qui définit des attributs (champs) et des comportements (méthodes) pour les objets créés à partir de cette classe."
+      },
+      "en": {
+        "question": "What is a class in Java?",
+        "answer": "A class in Java is a blueprint or template that defines attributes (fields) and behaviors (methods) for objects created from that class."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un objet en Java ?",
+        "réponse": "Un objet est une instance d'une classe. Il contient des états (valeurs des attributs) et des comportements (méthodes) définis par sa classe."
+      },
+      "en": {
+        "question": "What is an object in Java?",
+        "answer": "An object is an instance of a class. It contains states (attribute values) and behaviors (methods) defined by its class."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que l'héritage en Java ?",
+        "réponse": "L'héritage est un mécanisme en Java permettant à une classe de hériter des attributs et des méthodes d'une autre classe, favorisant ainsi la réutilisation du code."
+      },
+      "en": {
+        "question": "What is inheritance in Java?",
+        "answer": "Inheritance is a mechanism in Java that allows a class to inherit attributes and methods from another class, promoting code reuse."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un constructeur en Java ?",
+        "réponse": "Un constructeur est une méthode spéciale utilisée pour initialiser des objets. Il porte toujours le même nom que la classe et n'a pas de type de retour."
+      },
+      "en": {
+        "question": "What is a constructor in Java?",
+        "answer": "A constructor is a special method used to initialize objects. It always has the same name as the class and does not have a return type."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la surcharge de constructeur en Java ?",
+        "réponse": "La surcharge de constructeur signifie créer plusieurs constructeurs dans une classe avec des signatures différentes."
+      },
+      "en": {
+        "question": "What is constructor overloading in Java?",
+        "answer": "Constructor overloading means creating multiple constructors in a class with different parameter lists."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait le mot-clé 'this' en Java ?",
+        "réponse": "Le mot-clé 'this' fait référence à l'instance actuelle de la classe."
+      },
+      "en": {
+        "question": "What does the 'this' keyword do in Java?",
+        "answer": "'this' keyword refers to the current instance of the class."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une méthode statique en Java ?",
+        "réponse": "Une méthode statique appartient à la classe plutôt qu'à une instance. Elle peut être appelée sans créer un objet de la classe."
+      },
+      "en": {
+        "question": "What is a static method in Java?",
+        "answer": "A static method belongs to the class rather than instances. It can be called without creating an object of the class."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la différence entre == et .equals() en Java ?",
+        "réponse": "== compare les références mémoire tandis que .equals() compare les contenus des objets."
+      },
+      "en": {
+        "question": "What is the difference between == and .equals() in Java?",
+        "answer": "== compares memory references whereas .equals() compares the content of the objects."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que l'encapsulation en Java ?",
+        "réponse": "L'encapsulation est un mécanisme qui consiste à regrouper les données (variables) et le code (méthodes) qui y accède, protégeant ainsi les données contre un accès direct."
+      },
+      "en": {
+        "question": "What is encapsulation in Java?",
+        "answer": "Encapsulation is a mechanism of wrapping the data (variables) and code (methods) together and restricting direct access to them."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi utilise-t-on des interfaces en Java ?",
+        "réponse": "Les interfaces sont utilisées pour atteindre l'abstraction totale et pour permettre à différentes classes d'implémenter le même ensemble de méthodes de manière différente."
+      },
+      "en": {
+        "question": "Why are interfaces used in Java?",
+        "answer": "Interfaces are used to achieve full abstraction and to allow different classes to implement the same set of methods differently."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que le polymorphisme en Java ?",
+        "réponse": "Le polymorphisme permet à une même action de se comporter différemment selon les objets."
+      },
+      "en": {
+        "question": "What is polymorphism in Java?",
+        "answer": "Polymorphism allows the same action to behave differently based on the object."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment Java gère-t-il la mémoire ?",
+        "réponse": "Java utilise un système de gestion automatique de la mémoire avec un ramasse-miettes (garbage collector) pour libérer la mémoire inutilisée."
+      },
+      "en": {
+        "question": "How does Java manage memory?",
+        "answer": "Java uses an automatic memory management system with a garbage collector that frees unused memory."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une exception en Java ?",
+        "réponse": "Une exception est un problème qui survient pendant l'exécution d'un programme et interrompt le flux normal des instructions."
+      },
+      "en": {
+        "question": "What is an exception in Java?",
+        "answer": "An exception is a problem that occurs during the execution of a program and disrupts the normal flow of instructions."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert try-catch en Java ?",
+        "réponse": "Le bloc try-catch est utilisé pour capturer et gérer les exceptions afin d'empêcher l'arrêt brutal du programme."
+      },
+      "en": {
+        "question": "What is try-catch used for in Java?",
+        "answer": "The try-catch block is used to catch and handle exceptions to prevent abrupt termination of the program."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la différence entre checked et unchecked exceptions en Java ?",
+        "réponse": "Les exceptions checked sont vérifiées à la compilation tandis que les unchecked exceptions sont détectées à l'exécution."
+      },
+      "en": {
+        "question": "What is the difference between checked and unchecked exceptions in Java?",
+        "answer": "Checked exceptions are checked at compile time, while unchecked exceptions are detected at runtime."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une boucle for en Java ?",
+        "réponse": "Une boucle for est utilisée pour exécuter un bloc de code un nombre déterminé de fois."
+      },
+      "en": {
+        "question": "What is a for loop in Java?",
+        "answer": "A for loop is used to execute a block of code a specific number of times."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la différence entre while et do-while en Java ?",
+        "réponse": "while vérifie la condition avant d'exécuter le bloc, alors que do-while exécute le bloc au moins une fois avant de vérifier la condition."
+      },
+      "en": {
+        "question": "What is the difference between while and do-while in Java?",
+        "answer": "while checks the condition before executing the block, while do-while executes the block at least once before checking the condition."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert 'break' en Java ?",
+        "réponse": "Le mot-clé break est utilisé pour sortir prématurément d'une boucle ou d'un switch."
+      },
+      "en": {
+        "question": "What is 'break' used for in Java?",
+        "answer": "The 'break' keyword is used to exit a loop or a switch statement prematurely."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert 'continue' en Java ?",
+        "réponse": "Le mot-clé continue est utilisé pour passer immédiatement à l'itération suivante d'une boucle."
+      },
+      "en": {
+        "question": "What is 'continue' used for in Java?",
+        "answer": "The 'continue' keyword is used to skip the current iteration of a loop and move to the next one."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que sont JDK, JRE et JVM ensemble ?",
+        "réponse": "Le JDK contient le JRE et le compilateur pour développer des programmes Java, le JRE contient la JVM pour exécuter les programmes Java."
+      },
+      "en": {
+        "question": "What are JDK, JRE, and JVM together?",
+        "answer": "The JDK contains the JRE and the compiler for developing Java programs, and the JRE contains the JVM for running Java programs."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment déclarer un tableau en Java ?",
+        "réponse": "En Java, un tableau peut être déclaré par : type[] nom; par exemple int[] nombres;"
+      },
+      "en": {
+        "question": "How to declare an array in Java?",
+        "answer": "In Java, an array can be declared as: type[] name; for example int[] numbers;"
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait la méthode main en Java ?",
+        "réponse": "La méthode main est le point d'entrée de toute application Java, où l'exécution commence."
+      },
+      "en": {
+        "question": "What does the main method do in Java?",
+        "answer": "The main method is the entry point of any Java application where execution begins."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une méthode récursive en Java ?",
+        "réponse": "Une méthode récursive est une méthode qui s'appelle elle-même pour résoudre un problème."
+      },
+      "en": {
+        "question": "What is a recursive method in Java?",
+        "answer": "A recursive method is a method that calls itself to solve a problem."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qui a inventé Java ?",
+        "réponse": "Java a été inventé par James Gosling, un ingénieur informatique canadien travaillant chez Sun Microsystems, en 1995. Il est souvent surnommé le 'père de Java' en raison de son rôle déterminant dans la conception de ce langage." 
+      },
+      "en": {
+        "question": "Who invented Java?",
+        "answer": "Java was invented by James Gosling, a Canadian computer scientist working at Sun Microsystems, in 1995. He is often referred to as the 'father of Java' due to his critical role in designing the language."
+      }
+    },
+    {
+      "fr": {
+        "question": "En quelle année Java a-t-il été lancé ?",
+        "réponse": "Java a été officiellement lancé en 1995 lors de la conférence SunWorld. Ce lancement a marqué le début de l'une des technologies de programmation les plus influentes au monde." 
+      },
+      "en": {
+        "question": "In which year was Java launched?",
+        "answer": "Java was officially launched in 1995 during the SunWorld conference, marking the beginning of one of the most influential programming technologies in the world."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel était le nom original de Java ?",
+        "réponse": "Le nom original de Java était 'Oak'. James Gosling avait choisi ce nom en raison d'un chêne (oak tree) qui se trouvait devant son bureau." 
+      },
+      "en": {
+        "question": "What was Java's original name?",
+        "answer": "Java's original name was 'Oak'. James Gosling chose this name because of an oak tree that stood outside his office."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi le nom Oak a-t-il été changé en Java ?",
+        "réponse": "Le nom Oak a dû être changé car une entreprise informatique utilisait déjà ce nom. L'équipe a alors opté pour 'Java', un nom inspiré du café qu'ils buvaient régulièrement." 
+      },
+      "en": {
+        "question": "Why was the name Oak changed to Java?",
+        "answer": "The name Oak had to be changed because a computer company was already using it. The team then chose 'Java', inspired by the coffee they frequently drank."
+      }
+    },
+    {
+      "fr": {
+        "question": "D'où vient le nom Java ?",
+        "réponse": "Le nom Java provient d'une variété de café produite sur l'île de Java, en Indonésie. Ce choix reflétait l'énergie et la créativité de l'équipe de développement." 
+      },
+      "en": {
+        "question": "Where does the name Java come from?",
+        "answer": "The name Java comes from a variety of coffee produced on the island of Java, Indonesia. It reflected the energy and creativity of the development team."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel était l'objectif initial de Java ?",
+        "réponse": "L'objectif initial de Java était de créer un langage pour les appareils électroniques embarqués comme les téléviseurs interactifs, et non pour les ordinateurs de bureau." 
+      },
+      "en": {
+        "question": "What was Java's original goal?",
+        "answer": "Java's original goal was to create a language for embedded electronic devices like interactive TVs, not for desktop computers."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel projet interne a mené à la création de Java ?",
+        "réponse": "Le projet Green, un projet interne secret de Sun Microsystems, est à l'origine de la création de Java." 
+      },
+      "en": {
+        "question": "Which internal project led to Java's creation?",
+        "answer": "The Green Project, a secret internal project at Sun Microsystems, led to the creation of Java."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel type d'appareil visait initialement Java ?",
+        "réponse": "Java ciblait initialement des décodeurs numériques et des appareils grand public capables d'exécuter du code interactif." 
+      },
+      "en": {
+        "question": "Which devices was Java initially targeting?",
+        "answer": "Java initially targeted digital set-top boxes and consumer devices capable of running interactive code."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi Java est-il devenu populaire pour le web ?",
+        "réponse": "Java est devenu populaire pour le web grâce à sa capacité à créer des applets qui pouvaient être intégrées directement dans les pages web, offrant ainsi des contenus dynamiques et interactifs." 
+      },
+      "en": {
+        "question": "Why did Java become popular for the web?",
+        "answer": "Java became popular for the web because it allowed applets to be embedded directly into web pages, offering dynamic and interactive content."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel navigateur a été le premier à intégrer Java ?",
+        "réponse": "Le navigateur Netscape Navigator a été le premier à intégrer Java, permettant l'exécution des applets Java directement dans le navigateur." 
+      },
+      "en": {
+        "question": "Which browser first integrated Java?",
+        "answer": "Netscape Navigator was the first browser to integrate Java, enabling Java applets to run directly in the browser."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle entreprise a racheté Sun Microsystems ?",
+        "réponse": "Sun Microsystems a été rachetée par Oracle Corporation en 2010, ce qui a transféré la gestion de Java à Oracle." 
+      },
+      "en": {
+        "question": "Which company acquired Sun Microsystems?",
+        "answer": "Sun Microsystems was acquired by Oracle Corporation in 2010, transferring Java's management to Oracle."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java est-il encore géré par Sun Microsystems aujourd'hui ?",
+        "réponse": "Non, aujourd'hui Java est géré et maintenu par Oracle Corporation après l'acquisition de Sun Microsystems." 
+      },
+      "en": {
+        "question": "Is Java still managed by Sun Microsystems today?",
+        "answer": "No, Java is now managed and maintained by Oracle Corporation after Sun Microsystems was acquired."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est l'un des principaux avantages du langage Java ?",
+        "réponse": "L'un des plus grands avantages de Java est sa portabilité : un programme Java compilé peut s'exécuter sur toute machine équipée d'une JVM sans modification du code source." 
+      },
+      "en": {
+        "question": "What is one of Java's main advantages?",
+        "answer": "One of Java's greatest advantages is its portability: a compiled Java program can run on any machine equipped with a JVM without modifying the source code."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel événement a popularisé Java massivement en 1995 ?",
+        "réponse": "La conférence SunWorld 1995 a massivement popularisé Java en présentant sa capacité à fonctionner dans les navigateurs web grâce aux applets." 
+      },
+      "en": {
+        "question": "Which event massively popularized Java in 1995?",
+        "answer": "The SunWorld 1995 conference massively popularized Java by demonstrating its ability to run inside web browsers through applets."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java est-il open-source ?",
+        "réponse": "Oui, une grande partie de Java, notamment le JDK (Java Development Kit), est open-source sous le projet OpenJDK, bien que certaines versions commerciales existent." 
+      },
+      "en": {
+        "question": "Is Java open-source?",
+        "answer": "Yes, a large part of Java, especially the JDK (Java Development Kit), is open-source under the OpenJDK project, although commercial versions also exist."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'OpenJDK ?",
+        "réponse": "OpenJDK est une implémentation libre et officielle de Java SE (Standard Edition), utilisée comme base pour la majorité des distributions Java modernes." 
+      },
+      "en": {
+        "question": "What is OpenJDK?",
+        "answer": "OpenJDK is the free and official implementation of Java SE (Standard Edition), used as the foundation for most modern Java distributions."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le slogan célèbre de Java ?",
+        "réponse": "Le slogan célèbre de Java est 'Write Once, Run Anywhere', soulignant la capacité de Java à fonctionner sur toute plateforme disposant d'une JVM." 
+      },
+      "en": {
+        "question": "What is Java's famous slogan?",
+        "answer": "Java's famous slogan is 'Write Once, Run Anywhere', emphasizing Java's ability to run on any platform with a JVM."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java a-t-il influencé d'autres langages ?",
+        "réponse": "Oui, Java a profondément influencé de nombreux langages modernes comme Kotlin, Scala, Groovy, et même certaines fonctionnalités de C#." 
+      },
+      "en": {
+        "question": "Has Java influenced other languages?",
+        "answer": "Yes, Java has deeply influenced many modern languages such as Kotlin, Scala, Groovy, and even some features of C#."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qui rend Java indépendant de la plateforme ?",
+        "réponse": "Java est indépendant de la plateforme grâce à sa machine virtuelle Java (JVM). Lorsqu'un programme Java est compilé, il est transformé en bytecode qui peut être exécuté sur n'importe quelle machine disposant d'une JVM, indépendamment du système d'exploitation."
+      },
+      "en": {
+        "question": "What makes Java platform-independent?",
+        "answer": "Java is platform-independent due to its Java Virtual Machine (JVM). When a Java program is compiled, it is converted into bytecode that can run on any machine with a JVM, regardless of the operating system."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java est-il un langage orienté objet ?",
+        "réponse": "Oui, Java est un langage entièrement orienté objet, ce qui signifie que presque tout dans Java est un objet. Cela facilite la modularité, la réutilisation du code et la maintenance des programmes complexes."
+      },
+      "en": {
+        "question": "Is Java an object-oriented language?",
+        "answer": "Yes, Java is a fully object-oriented language, meaning that almost everything in Java is an object. This promotes modularity, code reuse, and the maintenance of complex programs."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie 'Simple' en Java ?",
+        "réponse": "Java est qualifié de 'simple' parce qu'il a été conçu pour être facile à apprendre, avec une syntaxe claire inspirée du C++, mais sans ses complexités telles que la gestion manuelle de la mémoire."
+      },
+      "en": {
+        "question": "What does 'Simple' mean in Java?",
+        "answer": "Java is considered 'simple' because it was designed to be easy to learn, with a clear syntax inspired by C++ but without complexities like manual memory management."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java est-il un langage sécurisé ?",
+        "réponse": "Oui, Java offre des fonctionnalités de sécurité robustes telles que le sandboxing des applications, la gestion stricte de la mémoire et des contrôles d'accès aux ressources du système, ce qui en fait un choix privilégié pour les applications critiques."
+      },
+      "en": {
+        "question": "Is Java a secure language?",
+        "answer": "Yes, Java provides strong security features such as application sandboxing, strict memory management, and resource access control, making it a preferred choice for critical applications."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la gestion automatique de la mémoire en Java ?",
+        "réponse": "En Java, la gestion de la mémoire est automatique grâce au ramasse-miettes (Garbage Collector) qui libère l'espace occupé par les objets inutilisés, réduisant ainsi les fuites de mémoire et les erreurs de gestion manuelle."
+      },
+      "en": {
+        "question": "What is automatic memory management in Java?",
+        "answer": "In Java, memory management is automatic through the Garbage Collector, which frees up space occupied by unused objects, reducing memory leaks and manual management errors."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java prend-il en charge le multithreading ?",
+        "réponse": "Oui, Java supporte le multithreading, permettant l'exécution simultanée de plusieurs threads. Cela améliore les performances et l'efficacité des applications, en particulier pour les programmes complexes."
+      },
+      "en": {
+        "question": "Does Java support multithreading?",
+        "answer": "Yes, Java supports multithreading, allowing multiple threads to run simultaneously. This enhances performance and efficiency, especially for complex programs."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie la portabilité de Java ?",
+        "réponse": "La portabilité de Java signifie qu'un programme écrit en Java peut être transféré et exécuté sur différentes plateformes sans modification du code source, grâce à l'utilisation du bytecode et de la JVM."
+      },
+      "en": {
+        "question": "What does Java's portability mean?",
+        "answer": "Java's portability means that a program written in Java can be transferred and run on different platforms without modifying the source code, thanks to bytecode and the JVM."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java est-il interprété ou compilé ?",
+        "réponse": "Java est à la fois compilé et interprété. Le code source est d'abord compilé en bytecode, qui est ensuite interprété ou compilé en code machine par la JVM au moment de l'exécution."
+      },
+      "en": {
+        "question": "Is Java interpreted or compiled?",
+        "answer": "Java is both compiled and interpreted. The source code is first compiled into bytecode, which is then interpreted or compiled into machine code by the JVM at runtime."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie 'robuste' dans le contexte de Java ?",
+        "réponse": "Java est robuste parce qu'il met l'accent sur la vérification des erreurs au moment de la compilation et de l'exécution. Il gère également les exceptions et offre une gestion automatique de la mémoire pour prévenir les défaillances système."
+      },
+      "en": {
+        "question": "What does 'robust' mean in the context of Java?",
+        "answer": "Java is robust because it emphasizes error checking at both compile time and runtime. It also handles exceptions and offers automatic memory management to prevent system failures."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est l'importance de l'architecture neutre de Java ?",
+        "réponse": "Java suit une architecture neutre car les spécifications de taille des types de données restent constantes sur toutes les plateformes, assurant ainsi une exécution cohérente du code Java partout."
+      },
+      "en": {
+        "question": "What is the significance of Java's neutral architecture?",
+        "answer": "Java follows a neutral architecture because the size specifications for data types remain consistent across all platforms, ensuring consistent execution of Java code everywhere."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi Java est-il considéré comme distribué ?",
+        "réponse": "Java est considéré comme distribué parce qu'il fournit des outils comme RMI (Remote Method Invocation) et des bibliothèques de réseau pour permettre aux programmes de communiquer via des réseaux facilement."
+      },
+      "en": {
+        "question": "Why is Java considered distributed?",
+        "answer": "Java is considered distributed because it provides tools like RMI (Remote Method Invocation) and networking libraries that enable programs to easily communicate over networks."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un applet Java ?",
+        "réponse": "Un applet Java est un petit programme qui peut être intégré dans une page web et exécuté par un navigateur web disposant d'une JVM, apportant une interactivité aux sites web. Aujourd'hui, les applets sont obsolètes."
+      },
+      "en": {
+        "question": "What is a Java applet?",
+        "answer": "A Java applet is a small program that can be embedded into a web page and executed by a web browser with a JVM, providing interactivity to websites. Today, applets are considered obsolete."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que le 'Write Once, Run Anywhere' de Java ?",
+        "réponse": "'Write Once, Run Anywhere' signifie qu'une fois qu'un programme Java est écrit et compilé en bytecode, il peut être exécuté sur toute machine disposant d'une JVM sans modification."
+      },
+      "en": {
+        "question": "What does Java's 'Write Once, Run Anywhere' mean?",
+        "answer": "'Write Once, Run Anywhere' means that once a Java program is written and compiled into bytecode, it can run on any machine with a JVM without modification."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels sont les avantages du Garbage Collection en Java ?",
+        "réponse": "Le Garbage Collection en Java permet de libérer automatiquement la mémoire utilisée par les objets qui ne sont plus référencés, optimisant ainsi les performances de l'application et réduisant les risques d'erreurs de mémoire."
+      },
+      "en": {
+        "question": "What are the benefits of Garbage Collection in Java?",
+        "answer": "Garbage Collection in Java automatically frees up memory used by objects that are no longer referenced, optimizing application performance and reducing memory-related errors."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java supporte-t-il les fonctionnalités réseau ?",
+        "réponse": "Oui, Java fournit une API réseau puissante permettant de développer des applications réseau robustes en utilisant des classes telles que Socket, ServerSocket, et URLConnection."
+      },
+      "en": {
+        "question": "Does Java support networking features?",
+        "answer": "Yes, Java provides a powerful networking API that enables the development of robust network applications using classes like Socket, ServerSocket, and URLConnection."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la programmation événementielle en Java ?",
+        "réponse": "La programmation événementielle en Java permet aux programmes de réagir à des événements utilisateurs comme des clics de souris ou des frappes clavier, notamment à travers les interfaces graphiques Swing et JavaFX."
+      },
+      "en": {
+        "question": "What is event-driven programming in Java?",
+        "answer": "Event-driven programming in Java allows programs to react to user actions such as mouse clicks or keyboard presses, particularly through GUI frameworks like Swing and JavaFX."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est l'importance de la bibliothèque standard Java ?",
+        "réponse": "La bibliothèque standard Java offre un ensemble riche de classes et d'interfaces prêtes à l'emploi pour des tâches communes comme la manipulation de collections, les opérations d'entrée/sortie, et la programmation réseau, accélérant ainsi le développement logiciel."
+      },
+      "en": {
+        "question": "What is the importance of Java's standard library?",
+        "answer": "Java's standard library provides a rich set of ready-to-use classes and interfaces for common tasks such as collections handling, input/output operations, and networking, greatly speeding up software development."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la principale différence entre Java et C++ ?",
+        "réponse": "La principale différence est que Java est conçu pour être portable entre différentes plateformes grâce à la JVM (Java Virtual Machine), tandis que C++ est compilé directement en code machine spécifique à l'architecture. Cela signifie que Java favorise la portabilité, alors que C++ privilégie la performance native."
+      },
+      "en": {
+        "question": "What is the main difference between Java and C++?",
+        "answer": "The main difference is that Java is designed for portability across platforms via the JVM (Java Virtual Machine), while C++ is compiled directly into machine-specific code. This means Java emphasizes portability, whereas C++ focuses on native performance."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment Java et C++ gèrent-ils la mémoire ?",
+        "réponse": "Java utilise un ramasse-miettes (garbage collector) pour gérer automatiquement la mémoire, tandis que C++ requiert une gestion manuelle de la mémoire à l'aide de malloc/free ou new/delete. Cela réduit les fuites de mémoire en Java mais offre un contrôle plus précis en C++."
+      },
+      "en": {
+        "question": "How do Java and C++ handle memory management?",
+        "answer": "Java uses a garbage collector for automatic memory management, whereas C++ requires manual memory handling using malloc/free or new/delete. This reduces memory leaks in Java but provides finer control in C++."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java utilise-t-il des pointeurs comme C++ ?",
+        "réponse": "Non, Java n'expose pas directement les pointeurs pour des raisons de sécurité et de simplicité. En revanche, C++ utilise intensivement les pointeurs pour la manipulation directe de la mémoire."
+      },
+      "en": {
+        "question": "Does Java use pointers like C++?",
+        "answer": "No, Java does not expose pointers directly for security and simplicity reasons. In contrast, C++ heavily uses pointers for direct memory manipulation."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelles sont les différences dans l'héritage multiple ?",
+        "réponse": "C++ prend en charge l'héritage multiple (une classe peut hériter de plusieurs classes), ce qui peut conduire à des problèmes de complexité comme le 'diamond problem'. Java n'autorise pas l'héritage multiple de classes, mais permet l'implémentation multiple d'interfaces pour éviter ces problèmes."
+      },
+      "en": {
+        "question": "What are the differences in multiple inheritance?",
+        "answer": "C++ supports multiple inheritance (a class can inherit from multiple classes), which can lead to complexity issues like the 'diamond problem'. Java does not allow multiple class inheritance but permits multiple interface implementations to avoid these issues."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment la syntaxe de Java diffère-t-elle de celle de C++ ?",
+        "réponse": "Bien que Java et C++ partagent une syntaxe similaire de type C, Java est plus simple et plus stricte, éliminant des fonctionnalités complexes comme les surcharges d'opérateurs et les pointeurs explicites que l'on trouve en C++."
+      },
+      "en": {
+        "question": "How does Java's syntax differ from C++?",
+        "answer": "While Java and C++ share a C-like syntax, Java is simpler and stricter, removing complex features like operator overloading and explicit pointer manipulation found in C++."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment Java gère-t-il la compilation par rapport à C++ ?",
+        "réponse": "En Java, le code est d'abord compilé en bytecode indépendant de la plateforme, puis exécuté par la JVM. En C++, le code est compilé directement en code machine pour l'architecture cible, rendant la compilation spécifique au système."
+      },
+      "en": {
+        "question": "How does Java handle compilation compared to C++?",
+        "answer": "In Java, code is first compiled into platform-independent bytecode, then executed by the JVM. In C++, code is directly compiled into machine code for the target architecture, making compilation system-specific."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la différence en termes de gestion des exceptions ?",
+        "réponse": "Les deux langages prennent en charge la gestion des exceptions, mais Java impose que toutes les exceptions vérifiables soient explicitement capturées ou déclarées, tandis que C++ laisse cette gestion plus libre, ce qui peut rendre le code moins sûr."
+      },
+      "en": {
+        "question": "What is the difference in exception handling?",
+        "answer": "Both languages support exception handling, but Java requires all checked exceptions to be explicitly caught or declared, while C++ provides a looser exception model, which can lead to less safe code."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment Java et C++ supportent-ils la programmation multithread ?",
+        "réponse": "Java intègre le support du multithreading dès sa conception, avec des classes comme Thread et Runnable. En C++, bien que le support multithread soit disponible (notamment depuis C++11), il nécessite souvent une gestion plus bas niveau."
+      },
+      "en": {
+        "question": "How do Java and C++ support multithreaded programming?",
+        "answer": "Java natively supports multithreading with classes like Thread and Runnable. In C++, while multithread support exists (especially since C++11), it often requires lower-level management."
+      }
+    },
+    {
+      "fr": {
+        "question": "Java est-il plus sécurisé que C++ ?",
+        "réponse": "Oui, Java est conçu pour être plus sécurisé, notamment grâce à l'absence de pointeurs explicites, à la vérification de type à l'exécution, et à la gestion automatique de la mémoire, contrairement à C++ où les erreurs de mémoire sont courantes."
+      },
+      "en": {
+        "question": "Is Java more secure than C++?",
+        "answer": "Yes, Java is designed to be more secure, notably due to the absence of explicit pointers, runtime type checking, and automatic memory management, unlike C++ where memory errors are common."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels types de bibliothèques standard offrent Java et C++ ?",
+        "réponse": "Java offre une bibliothèque standard très étendue couvrant le réseau, les interfaces graphiques, la sécurité, etc. C++ fournit la STL (Standard Template Library) principalement pour les structures de données et algorithmes."
+      },
+      "en": {
+        "question": "What kinds of standard libraries do Java and C++ offer?",
+        "answer": "Java provides a very extensive standard library covering networking, GUI, security, and more. C++ offers the STL (Standard Template Library) mainly focused on data structures and algorithms."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment les plateformes cibles diffèrent-elles pour Java et C++ ?",
+        "réponse": "Java vise la portabilité et peut fonctionner sur n'importe quelle plateforme avec une JVM, tandis que C++ est optimisé pour une plateforme spécifique après compilation."
+      },
+      "en": {
+        "question": "How do target platforms differ between Java and C++?",
+        "answer": "Java targets portability and can run on any platform with a JVM, while C++ is optimized for a specific platform after compilation."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle approche de la gestion des erreurs est utilisée par Java et C++ ?",
+        "réponse": "Java impose une gestion stricte des erreurs avec les exceptions vérifiées. C++ permet plus de liberté, y compris l'usage optionnel des exceptions, ce qui peut compliquer la robustesse du code."
+      },
+      "en": {
+        "question": "What error-handling approach is used by Java and C++?",
+        "answer": "Java enforces strict error handling with checked exceptions. C++ allows more freedom, including optional exception use, which can complicate code robustness."
+      }
+    },
+    {
+      "fr": {
+        "question": "Le modèle d'objet diffère-t-il entre Java et C++ ?",
+        "réponse": "Oui, tout en Java est basé sur les objets, même les types primitifs peuvent être utilisés comme objets avec l'autoboxing. En C++, bien que la programmation orientée objet soit supportée, les types primitifs restent séparés des objets."
+      },
+      "en": {
+        "question": "Does the object model differ between Java and C++?",
+        "answer": "Yes, everything in Java is object-based, even primitive types can be used as objects with autoboxing. In C++, although OOP is supported, primitive types are separate from objects."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels mécanismes de sécurité Java offre-t-il que C++ n'offre pas ?",
+        "réponse": "Java offre un modèle de sécurité basé sur la JVM, le sandboxing des applets, et des permissions de sécurité granulaires. C++ n'offre pas ces mécanismes en standard."
+      },
+      "en": {
+        "question": "What security mechanisms does Java offer that C++ does not?",
+        "answer": "Java provides a security model based on the JVM, sandboxing of applets, and granular security permissions. C++ does not offer such built-in mechanisms."
+      }
+    },
+    {
+      "fr": {
+        "question": "C++ est-il plus rapide que Java ?",
+        "réponse": "En général, C++ est plus rapide car il est compilé directement en code machine. Java est cependant devenu très performant grâce aux optimisations de la JVM telles que la compilation JIT (Just-In-Time)."
+      },
+      "en": {
+        "question": "Is C++ faster than Java?",
+        "answer": "Generally, C++ is faster because it is compiled directly into machine code. However, Java has become very performant thanks to JVM optimizations like Just-In-Time (JIT) compilation."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment la syntaxe des templates C++ se compare-t-elle aux génériques Java ?",
+        "réponse": "Les templates C++ sont plus puissants et flexibles mais aussi plus complexes. Les génériques Java offrent une syntaxe plus simple mais avec certaines limitations, notamment l'effacement de type à l'exécution."
+      },
+      "en": {
+        "question": "How does C++ template syntax compare to Java generics?",
+        "answer": "C++ templates are more powerful and flexible but also more complex. Java generics offer simpler syntax but have limitations, such as type erasure at runtime."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel langage est mieux pour les grandes applications d'entreprise ?",
+        "réponse": "Java est souvent préféré pour les grandes applications d'entreprise en raison de son écosystème riche, sa portabilité et ses outils robustes comme Spring et Java EE. C++ est souvent choisi pour des applications système nécessitant des performances maximales."
+      },
+      "en": {
+        "question": "Which language is better for large enterprise applications?",
+        "answer": "Java is often preferred for large enterprise applications due to its rich ecosystem, portability, and robust tools like Spring and Java EE. C++ is typically chosen for system-level applications requiring maximum performance."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le but du programme Hello World en Java ?",
+        "réponse": "Le programme Hello World sert à démontrer les bases du langage Java : comment écrire, compiler et exécuter un programme. Il est souvent utilisé pour vérifier que l'environnement de développement est correctement installé."
+      },
+      "en": {
+        "question": "What is the purpose of the Hello World program in Java?",
+        "answer": "The Hello World program demonstrates the basics of Java: how to write, compile, and run a program. It is often used to verify that the development environment is properly set up."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le code Java minimal pour afficher 'Hello World' ?",
+        "réponse": "Voici un exemple minimal :\n```java\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}\n```"
+      },
+      "en": {
+        "question": "What is the minimal Java code to display 'Hello World'?",
+        "answer": "Here is a minimal example:\n```java\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi la méthode main est-elle nécessaire en Java ?",
+        "réponse": "La méthode `main` est le point d'entrée du programme en Java. C'est la première méthode appelée lors de l'exécution d'une application."
+      },
+      "en": {
+        "question": "Why is the main method necessary in Java?",
+        "answer": "The `main` method is the entry point of a Java program. It is the first method called when an application is executed."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie 'public' dans la déclaration de classe ?",
+        "réponse": "Le mot-clé `public` signifie que la classe est accessible depuis n'importe quelle autre classe Java, indispensable pour être exécutée par la JVM."
+      },
+      "en": {
+        "question": "What does 'public' mean in the class declaration?",
+        "answer": "The `public` keyword means that the class is accessible from any other Java class, which is necessary for the JVM to execute it."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi utilise-t-on 'static' pour la méthode main ?",
+        "réponse": "La méthode `main` est `static` pour pouvoir être appelée par la JVM sans créer d'instance de la classe."
+      },
+      "en": {
+        "question": "Why is the main method declared as 'static'?",
+        "answer": "The `main` method is declared `static` so that it can be called by the JVM without creating an instance of the class."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que représente 'String[] args' ?",
+        "réponse": "`String[] args` est un tableau contenant les arguments passés à l'application lors de son exécution en ligne de commande."
+      },
+      "en": {
+        "question": "What does 'String[] args' represent?",
+        "answer": "`String[] args` is an array containing the arguments passed to the application during command-line execution."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la fonction de System.out.println ?",
+        "réponse": "`System.out.println` est utilisé pour afficher une ligne de texte dans la console."
+      },
+      "en": {
+        "question": "What is the function of System.out.println?",
+        "answer": "`System.out.println` is used to print a line of text to the console."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment compiler le fichier HelloWorld.java ?",
+        "réponse": "On compile le fichier avec la commande suivante :\n```bash\njavac HelloWorld.java\n```"
+      },
+      "en": {
+        "question": "How do you compile the HelloWorld.java file?",
+        "answer": "You compile the file using the following command:\n```bash\njavac HelloWorld.java\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment exécuter le programme compilé HelloWorld ?",
+        "réponse": "Après compilation, on exécute le programme avec :\n```bash\njava HelloWorld\n```"
+      },
+      "en": {
+        "question": "How do you run the compiled HelloWorld program?",
+        "answer": "After compilation, run the program using:\n```bash\njava HelloWorld\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi ne faut-il pas ajouter '.class' lors de l'exécution avec 'java' ?",
+        "réponse": "Parce que la commande `java` attend le nom de la classe contenant la méthode `main`, et non le nom du fichier .class."
+      },
+      "en": {
+        "question": "Why should you not add '.class' when executing with 'java'?",
+        "answer": "Because the `java` command expects the class name containing the `main` method, not the `.class` file name."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que se passe-t-il si le nom du fichier ne correspond pas au nom de la classe ?",
+        "réponse": "En Java, si une classe publique est définie, le nom du fichier doit correspondre exactement au nom de cette classe, sinon une erreur de compilation se produit."
+      },
+      "en": {
+        "question": "What happens if the file name does not match the class name?",
+        "answer": "In Java, if a public class is defined, the file name must exactly match the class name, otherwise a compilation error occurs."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on avoir plusieurs classes dans un même fichier Java ?",
+        "réponse": "Oui, mais un seul peut être public, et son nom doit correspondre au nom du fichier. Les autres classes seront accessibles uniquement dans le même package."
+      },
+      "en": {
+        "question": "Can you have multiple classes in a single Java file?",
+        "answer": "Yes, but only one class can be public, and its name must match the file name. Other classes will be accessible only within the same package."
+      }
+    },
+    {
+      "fr": {
+        "question": "Est-il obligatoire d'utiliser System.out.println pour afficher du texte ?",
+        "réponse": "C'est la méthode la plus courante, mais on peut aussi utiliser `System.out.print` (sans retour à la ligne) ou d'autres flux de sortie comme `System.err` pour afficher les erreurs."
+      },
+      "en": {
+        "question": "Is it mandatory to use System.out.println to display text?",
+        "answer": "It is the most common method, but you can also use `System.out.print` (without a line break) or other output streams like `System.err` to display errors."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment ajouter un commentaire dans un programme Java ?",
+        "réponse": "On peut ajouter des commentaires sur une ligne avec `//` ou sur plusieurs lignes avec `/* ... */`."
+      },
+      "en": {
+        "question": "How do you add a comment in a Java program?",
+        "answer": "You can add a single-line comment using `//` or a multi-line comment using `/* ... */`."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie la JVM en Java ?",
+        "réponse": "La JVM (Java Virtual Machine) exécute le bytecode Java et permet l'indépendance vis-à-vis de la plateforme matérielle."
+      },
+      "en": {
+        "question": "What does JVM mean in Java?",
+        "answer": "The JVM (Java Virtual Machine) executes Java bytecode and enables platform independence."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on exécuter un programme Java sans le compiler d'abord ?",
+        "réponse": "Non, Java nécessite que le code source soit d'abord compilé en bytecode avant d'être exécuté par la JVM."
+      },
+      "en": {
+        "question": "Can you run a Java program without compiling it first?",
+        "answer": "No, Java requires the source code to be compiled into bytecode before it can be executed by the JVM."
+      }
+    },
+    {
+      "fr": {
+        "question": "Est-il possible d'afficher plusieurs lignes avec System.out.println ?",
+        "réponse": "Oui, en appelant plusieurs fois `System.out.println` ou en insérant des caractères de nouvelle ligne `\\n` dans la chaîne de texte."
+      },
+      "en": {
+        "question": "Is it possible to display multiple lines with System.out.println?",
+        "answer": "Yes, by calling `System.out.println` multiple times or by inserting newline characters `\\n` inside the text string."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la signification de 'public class HelloWorld' ?",
+        "réponse": "Cela déclare une classe publique nommée HelloWorld. Le mot-clé `public` signifie que la classe est accessible de n'importe où."
+      },
+      "en": {
+        "question": "What does 'public class HelloWorld' mean?",
+        "answer": "It declares a public class named HelloWorld. The `public` keyword means the class is accessible from anywhere."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que représente exactement 'public static void main(String[] args)' ?",
+        "réponse": "C'est la méthode principale que la JVM appelle pour démarrer le programme. `public` signifie accessible partout, `static` signifie qu'elle peut être appelée sans instance, `void` signifie qu'elle ne retourne rien, et `String[] args` sont les arguments en ligne de commande."
+      },
+      "en": {
+        "question": "What exactly does 'public static void main(String[] args)' represent?",
+        "answer": "It is the main method that the JVM calls to start the program. `public` means accessible everywhere, `static` means it can be called without an instance, `void` means it returns nothing, and `String[] args` are command-line arguments."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi utilise-t-on des accolades '{ }' ?",
+        "réponse": "Les accolades définissent un bloc de code en Java. Elles délimitent le début et la fin d'une classe, d'une méthode, ou d'une structure de contrôle."
+      },
+      "en": {
+        "question": "Why are curly braces '{ }' used?",
+        "answer": "Curly braces define a block of code in Java. They mark the beginning and end of a class, method, or control structure."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait System.out ?",
+        "réponse": "`System.out` est un flux de sortie standard utilisé pour afficher des données sur la console."
+      },
+      "en": {
+        "question": "What does System.out do?",
+        "answer": "`System.out` is a standard output stream used to print data to the console."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait exactement System.out.println(\"Hello World\") ?",
+        "réponse": "Cela envoie la chaîne de caractères 'Hello World' vers la sortie standard (habituellement la console) suivie d'un saut de ligne."
+      },
+      "en": {
+        "question": "What exactly does System.out.println(\"Hello World\") do?",
+        "answer": "It sends the string 'Hello World' to the standard output (usually the console) followed by a newline."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la différence entre print et println en Java ?",
+        "réponse": "`print` affiche sans retour à la ligne, tandis que `println` ajoute automatiquement un saut de ligne après l'affichage."
+      },
+      "en": {
+        "question": "What is the difference between print and println in Java?",
+        "answer": "`print` displays output without adding a new line, while `println` automatically adds a new line after displaying output."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que System en Java ?",
+        "réponse": "`System` est une classe finale du package java.lang qui fournit l'accès à des ressources système telles que l'entrée, la sortie et l'erreur standard."
+      },
+      "en": {
+        "question": "What is System in Java?",
+        "answer": "`System` is a final class in the java.lang package that provides access to system resources like standard input, output, and error streams."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi Java impose-t-il des points-virgules ';' ?",
+        "réponse": "Le point-virgule `;` est utilisé pour terminer chaque instruction. Il indique à la JVM où une instruction finit."
+      },
+      "en": {
+        "question": "Why does Java require semicolons ';'?",
+        "answer": "The semicolon `;` is used to terminate each statement. It tells the JVM where a statement ends."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un flux de sortie standard en Java ?",
+        "réponse": "Un flux de sortie standard est un canal par lequel un programme envoie des informations à l'utilisateur, généralement affichées sur la console."
+      },
+      "en": {
+        "question": "What is a standard output stream in Java?",
+        "answer": "A standard output stream is a channel through which a program sends information to the user, usually displayed on the console."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on modifier la méthode main ?",
+        "réponse": "Non, sa signature doit être exactement `public static void main(String[] args)` pour que la JVM puisse l'appeler correctement."
+      },
+      "en": {
+        "question": "Can we modify the main method?",
+        "answer": "No, its signature must be exactly `public static void main(String[] args)` so that the JVM can correctly call it."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie void dans la méthode main ?",
+        "réponse": "`void` indique que la méthode ne retourne aucune valeur."
+      },
+      "en": {
+        "question": "What does void mean in the main method?",
+        "answer": "`void` indicates that the method does not return any value."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi main est-elle la méthode de démarrage du programme ?",
+        "réponse": "La JVM recherche toujours une méthode `main` comme point d'entrée lorsqu'elle lance un programme Java."
+      },
+      "en": {
+        "question": "Why is main the program's starting method?",
+        "answer": "The JVM always looks for a `main` method as the entry point when launching a Java program."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que se passe-t-il si la méthode main est manquante ?",
+        "réponse": "Si la méthode `main` est absente, la JVM affiche une erreur : `Main method not found in class HelloWorld`."
+      },
+      "en": {
+        "question": "What happens if the main method is missing?",
+        "answer": "If the `main` method is missing, the JVM throws an error: `Main method not found in class HelloWorld`."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert 'args' dans main ?",
+        "réponse": "`args` permet de passer des informations externes (paramètres) au programme Java au moment de son exécution."
+      },
+      "en": {
+        "question": "What is 'args' used for in main?",
+        "answer": "`args` allows external information (parameters) to be passed to the Java program at runtime."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment afficher le premier argument reçu dans 'args' ?",
+        "réponse": "On peut afficher le premier argument ainsi :\n```java\nSystem.out.println(args[0]);\n```"
+      },
+      "en": {
+        "question": "How to display the first argument received in 'args'?",
+        "answer": "You can display the first argument like this:\n```java\nSystem.out.println(args[0]);\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un tableau en Java ?",
+        "réponse": "Un tableau est une structure de données qui stocke plusieurs éléments du même type dans une seule variable."
+      },
+      "en": {
+        "question": "What is an array in Java?",
+        "answer": "An array is a data structure that stores multiple elements of the same type in a single variable."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment savoir si un programme Java s'est terminé avec succès ?",
+        "réponse": "S'il s'exécute sans exception et retourne le contrôle au système, cela indique une fin de programme réussie."
+      },
+      "en": {
+        "question": "How do you know if a Java program ended successfully?",
+        "answer": "If it runs without throwing an exception and returns control to the system, it indicates a successful program termination."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que contient un fichier .class généré par la compilation ?",
+        "réponse": "Un fichier `.class` contient du bytecode, un code intermédiaire compréhensible par la JVM mais indépendant du matériel."
+      },
+      "en": {
+        "question": "What does a .class file generated by compilation contain?",
+        "answer": "A `.class` file contains bytecode, an intermediate code understandable by the JVM but hardware-independent."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que le PATH en Java ?",
+        "réponse": "Le PATH est une variable d'environnement qui indique au système d'exploitation où chercher les exécutables comme `javac` (le compilateur Java) et `java` (le lanceur Java)."
+      },
+      "en": {
+        "question": "What is the PATH in Java?",
+        "answer": "The PATH is an environment variable that tells the operating system where to find executables like `javac` (the Java compiler) and `java` (the Java launcher)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi faut-il configurer le PATH pour Java ?",
+        "réponse": "Configurer le PATH permet d'exécuter les commandes `javac` et `java` de n'importe quel dossier sans devoir spécifier leur chemin complet à chaque fois."
+      },
+      "en": {
+        "question": "Why do we need to set the PATH for Java?",
+        "answer": "Setting the PATH allows you to run `javac` and `java` commands from any folder without specifying their full paths every time."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment définir temporairement le PATH en Java sous Windows ?",
+        "réponse": "Dans l'invite de commandes (cmd), tapez :\n```cmd\nset PATH=C:\\Program Files\\Java\\jdk-x.x.x\\bin;%PATH%\n```"
+      },
+      "en": {
+        "question": "How to set the PATH temporarily for Java on Windows?",
+        "answer": "In the command prompt (cmd), type:\n```cmd\nset PATH=C:\\Program Files\\Java\\jdk-x.x.x\\bin;%PATH%\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment définir définitivement le PATH pour Java sous Windows ?",
+        "réponse": "Accédez à **Paramètres système avancés > Variables d'environnement** puis ajoutez le chemin du dossier `bin` du JDK dans la variable PATH."
+      },
+      "en": {
+        "question": "How to permanently set the PATH for Java on Windows?",
+        "answer": "Go to **Advanced system settings > Environment Variables** and add the JDK `bin` folder path to the PATH variable."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment définir temporairement le PATH pour Java sous Linux ou macOS ?",
+        "réponse": "Dans le terminal, tapez :\n```bash\nexport PATH=/chemin/vers/jdk/bin:$PATH\n```"
+      },
+      "en": {
+        "question": "How to temporarily set the PATH for Java on Linux or macOS?",
+        "answer": "In the terminal, type:\n```bash\nexport PATH=/path/to/jdk/bin:$PATH\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle variable doit être définie pour compiler et exécuter Java ?",
+        "réponse": "La variable PATH doit être définie. En option, JAVA_HOME peut aussi être configurée pour pointer vers le dossier JDK principal."
+      },
+      "en": {
+        "question": "Which variable must be set to compile and run Java?",
+        "answer": "The PATH variable must be set. Optionally, JAVA_HOME can also be configured to point to the main JDK folder."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que JAVA_HOME ?",
+        "réponse": "JAVA_HOME est une variable d'environnement qui pointe vers le répertoire principal où le JDK est installé. Elle est utilisée par de nombreux outils Java comme Maven, Gradle et Tomcat."
+      },
+      "en": {
+        "question": "What is JAVA_HOME?",
+        "answer": "JAVA_HOME is an environment variable that points to the main directory where the JDK is installed. It is used by many Java tools like Maven, Gradle, and Tomcat."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi faut-il définir JAVA_HOME ?",
+        "réponse": "Définir JAVA_HOME permet aux outils de build et serveurs d'applications de localiser automatiquement le JDK sans devoir spécifier son chemin à chaque exécution."
+      },
+      "en": {
+        "question": "Why should you set JAVA_HOME?",
+        "answer": "Setting JAVA_HOME allows build tools and application servers to automatically find the JDK without needing the path specified every time."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment définir JAVA_HOME temporairement sous Windows ?",
+        "réponse": "Dans l'invite de commandes :\n```cmd\nset JAVA_HOME=C:\\Program Files\\Java\\jdk-x.x.x\n```"
+      },
+      "en": {
+        "question": "How to temporarily set JAVA_HOME on Windows?",
+        "answer": "In the command prompt:\n```cmd\nset JAVA_HOME=C:\\Program Files\\Java\\jdk-x.x.x\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment définir JAVA_HOME définitivement sous Windows ?",
+        "réponse": "Allez dans **Paramètres système avancés > Variables d'environnement** et créez une nouvelle variable utilisateur JAVA_HOME pointant vers le dossier du JDK."
+      },
+      "en": {
+        "question": "How to permanently set JAVA_HOME on Windows?",
+        "answer": "Go to **Advanced system settings > Environment Variables** and create a new user variable JAVA_HOME pointing to the JDK folder."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment définir JAVA_HOME sous Linux ou macOS ?",
+        "réponse": "Dans le terminal, ajoutez à votre fichier `~/.bashrc`, `~/.bash_profile`, ou `~/.zshrc` :\n```bash\nexport JAVA_HOME=/chemin/vers/jdk\nexport PATH=$JAVA_HOME/bin:$PATH\n```"
+      },
+      "en": {
+        "question": "How to set JAVA_HOME on Linux or macOS?",
+        "answer": "In the terminal, add to your `~/.bashrc`, `~/.bash_profile`, or `~/.zshrc` file:\n```bash\nexport JAVA_HOME=/path/to/jdk\nexport PATH=$JAVA_HOME/bin:$PATH\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment vérifier que JAVA_HOME est bien configuré ?",
+        "réponse": "Tapez :\n```bash\necho %JAVA_HOME%   (sous Windows)\necho $JAVA_HOME    (sous Linux/macOS)\n```"
+      },
+      "en": {
+        "question": "How to verify that JAVA_HOME is properly set?",
+        "answer": "Type:\n```bash\necho %JAVA_HOME%   (on Windows)\necho $JAVA_HOME    (on Linux/macOS)\n```"
+      }
+    },
+    {
+      "fr": {
+        "question": "Que se passe-t-il si le PATH est mal configuré pour Java ?",
+        "réponse": "Si le PATH est incorrect, les commandes `javac` et `java` ne seront pas reconnues, et vous obtiendrez une erreur comme 'javac n'est pas reconnu en tant que commande interne ou externe'."
+      },
+      "en": {
+        "question": "What happens if the PATH is misconfigured for Java?",
+        "answer": "If the PATH is incorrect, commands like `javac` and `java` will not be recognized, and you will get an error like 'javac is not recognized as an internal or external command'."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que faire si 'javac' n'est pas reconnu dans la console ?",
+        "réponse": "Vérifiez que le dossier `bin` du JDK est bien ajouté au PATH. Sinon, ajoutez-le manuellement en suivant la procédure de configuration du PATH."
+      },
+      "en": {
+        "question": "What to do if 'javac' is not recognized in the console?",
+        "answer": "Check that the JDK `bin` folder is correctly added to the PATH. Otherwise, manually add it by following the PATH configuration process."
+      }
+    },
+    {
+      "fr": {
+        "question": "Est-ce un problème si PATH contient plusieurs versions de Java ?",
+        "réponse": "Oui, cela peut causer des conflits de versions. La première version trouvée dans le PATH sera utilisée, ce qui peut mener à des erreurs d'incompatibilité."
+      },
+      "en": {
+        "question": "Is it a problem if PATH contains multiple Java versions?",
+        "answer": "Yes, it can cause version conflicts. The first version found in the PATH will be used, which can lead to compatibility errors."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment éviter les conflits de version dans le PATH ?",
+        "réponse": "Assurez-vous que seule la version de Java souhaitée est présente en tête de la variable PATH. Supprimez les autres entrées ou ajustez leur ordre."
+      },
+      "en": {
+        "question": "How to avoid version conflicts in the PATH?",
+        "answer": "Ensure that only the desired Java version is at the top of the PATH variable. Remove or reorder other entries as needed."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi 'java' fonctionne mais pas 'javac' ?",
+        "réponse": "Cela indique souvent que le JRE est dans le PATH mais pas le JDK. Le JDK contient `javac`, tandis que le JRE ne fournit que `java` pour exécuter des programmes."
+      },
+      "en": {
+        "question": "Why does 'java' work but not 'javac'?",
+        "answer": "This usually indicates that the JRE is in the PATH but not the JDK. The JDK includes `javac`, whereas the JRE only provides `java` to run programs."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment corriger une mauvaise installation du PATH en Java ?",
+        "réponse": "Supprimez toutes les anciennes entrées liées à Java dans la variable PATH et ajoutez seulement le chemin correct vers le dossier `bin` du JDK installé."
+      },
+      "en": {
+        "question": "How to fix a bad Java PATH setup?",
+        "answer": "Remove all old Java-related entries in the PATH variable and add only the correct path to the `bin` folder of the installed JDK."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la JVM ?",
+        "réponse": "La JVM (Java Virtual Machine) est un moteur qui exécute les programmes Java compilés (.class) en convertissant le bytecode en instructions machine spécifiques à la plateforme."
+      },
+      "en": {
+        "question": "What is the JVM?",
+        "answer": "The JVM (Java Virtual Machine) is an engine that runs compiled Java programs (.class files) by converting bytecode into platform-specific machine instructions."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que le JRE ?",
+        "réponse": "Le JRE (Java Runtime Environment) est un package qui fournit tout ce qui est nécessaire pour exécuter des programmes Java, y compris la JVM et les bibliothèques de classes standard."
+      },
+      "en": {
+        "question": "What is the JRE?",
+        "answer": "The JRE (Java Runtime Environment) is a package that provides everything needed to run Java programs, including the JVM and standard class libraries."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que le JDK ?",
+        "réponse": "Le JDK (Java Development Kit) est un ensemble d'outils nécessaires pour développer, compiler et déboguer des programmes Java. Il inclut le JRE, des compilateurs, et des outils comme `javac` et `javadoc`."
+      },
+      "en": {
+        "question": "What is the JDK?",
+        "answer": "The JDK (Java Development Kit) is a set of tools needed to develop, compile, and debug Java programs. It includes the JRE, compilers, and tools like `javac` and `javadoc`."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le rôle principal de la JVM ?",
+        "réponse": "Le rôle principal de la JVM est de garantir l'exécution du bytecode Java sur n'importe quelle plateforme sans modifier le code source."
+      },
+      "en": {
+        "question": "What is the main role of the JVM?",
+        "answer": "The main role of the JVM is to ensure Java bytecode runs on any platform without changing the source code."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le rôle principal du JRE ?",
+        "réponse": "Le rôle du JRE est de fournir l'environnement nécessaire pour l'exécution d'applications Java, sans inclure les outils de développement."
+      },
+      "en": {
+        "question": "What is the main role of the JRE?",
+        "answer": "The JRE provides the necessary environment to run Java applications, without including development tools."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le rôle principal du JDK ?",
+        "réponse": "Le JDK permet aux développeurs de créer et de compiler des programmes Java en fournissant des outils comme `javac`, `javadoc`, et `jar`."
+      },
+      "en": {
+        "question": "What is the main role of the JDK?",
+        "answer": "The JDK enables developers to create and compile Java programs by providing tools like `javac`, `javadoc`, and `jar`."
+      }
+    },
+    {
+      "fr": {
+        "question": "La JVM dépend-elle de la plateforme ?",
+        "réponse": "Oui, bien que le bytecode soit indépendant de la plateforme, chaque JVM est spécifique au système d'exploitation et au matériel."
+      },
+      "en": {
+        "question": "Is the JVM platform-dependent?",
+        "answer": "Yes, while bytecode is platform-independent, each JVM is built specifically for the underlying OS and hardware."
+      }
+    },
+    {
+      "fr": {
+        "question": "Le JRE dépend-il de la plateforme ?",
+        "réponse": "Oui, car il inclut une JVM adaptée à un système d'exploitation donné."
+      },
+      "en": {
+        "question": "Is the JRE platform-dependent?",
+        "answer": "Yes, because it includes a JVM built for a specific operating system."
+      }
+    },
+    {
+      "fr": {
+        "question": "Le JDK dépend-il de la plateforme ?",
+        "réponse": "Oui, chaque JDK est compilé pour fonctionner sur une plateforme spécifique (Windows, Linux, macOS)."
+      },
+      "en": {
+        "question": "Is the JDK platform-dependent?",
+        "answer": "Yes, each JDK is compiled to work on a specific platform (Windows, Linux, macOS)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le cas d'utilisation typique de la JVM ?",
+        "réponse": "La JVM est utilisée pour exécuter des applications Java compilées, indépendamment de la plateforme d'origine du code source."
+      },
+      "en": {
+        "question": "What is the typical use case for the JVM?",
+        "answer": "The JVM is used to run compiled Java applications regardless of the source code's original platform."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le cas d'utilisation typique du JRE ?",
+        "réponse": "Le JRE est utilisé sur les machines où l'on souhaite uniquement exécuter des applications Java, sans développer."
+      },
+      "en": {
+        "question": "What is the typical use case for the JRE?",
+        "answer": "The JRE is used on machines where Java applications need to run, but no development is required."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le cas d'utilisation typique du JDK ?",
+        "réponse": "Le JDK est nécessaire pour écrire, compiler, tester, et empaqueter des applications Java."
+      },
+      "en": {
+        "question": "What is the typical use case for the JDK?",
+        "answer": "The JDK is needed to write, compile, test, and package Java applications."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que contient la JVM ?",
+        "réponse": "La JVM contient un chargeur de classes, un moteur d'exécution et un gestionnaire de mémoire (garbage collector)."
+      },
+      "en": {
+        "question": "What does the JVM contain?",
+        "answer": "The JVM contains a class loader, an execution engine, and a memory manager (garbage collector)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que contient le JRE ?",
+        "réponse": "Le JRE contient la JVM, les bibliothèques de classes standard, et des fichiers de configuration."
+      },
+      "en": {
+        "question": "What does the JRE contain?",
+        "answer": "The JRE contains the JVM, standard class libraries, and configuration files."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que contient le JDK ?",
+        "réponse": "Le JDK contient le JRE, le compilateur `javac`, des outils de documentation, et des utilitaires de packaging comme `jar`."
+      },
+      "en": {
+        "question": "What does the JDK contain?",
+        "answer": "The JDK contains the JRE, the `javac` compiler, documentation tools, and packaging utilities like `jar`."
+      }
+    },
+    {
+      "fr": {
+        "question": "La JVM compile-t-elle du code source ?",
+        "réponse": "Non, la JVM exécute uniquement du bytecode compilé. La compilation du code source est effectuée par le compilateur `javac`."
+      },
+      "en": {
+        "question": "Does the JVM compile source code?",
+        "answer": "No, the JVM only executes compiled bytecode. Source code compilation is done by the `javac` compiler."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on installer uniquement la JVM ?",
+        "réponse": "Non, la JVM est généralement fournie dans le JRE ou le JDK ; elle n'est pas installée seule."
+      },
+      "en": {
+        "question": "Can you install the JVM alone?",
+        "answer": "No, the JVM is typically bundled within the JRE or the JDK; it is not installed separately."
+      }
+    },
+    {
+      "fr": {
+        "question": "Lequel choisir entre JDK, JRE et JVM ?",
+        "réponse": "Pour exécuter des programmes Java, installez le JRE. Pour développer des applications Java, installez le JDK, qui contient tout ce qu’il faut."
+      },
+      "en": {
+        "question": "Which one should you choose between JDK, JRE, and JVM?",
+        "answer": "To run Java programs, install the JRE. To develop Java applications, install the JDK, which contains everything needed."
+      }
+    },
+    {
+      "fr": { "question": "Quelle commande utiliser pour connaître la version de Java installée ?", 
+              "réponse": "`java -version` dans le terminal." },
+      "en": { "question": "Which command is used to check the installed Java version?", "answer": "`java -version` in the terminal." }
+    },
+    {
+      "fr": { "question": "Comment connaître la version du compilateur Java installé ?", "réponse": "`javac -version` pour vérifier la version du compilateur." },
+      "en": { "question": "How to check the installed Java compiler version?", "answer": "`javac -version` to check the compiler version." }
+    },
+    {
+      "fr": { "question": "Où vérifier la version Java sur Windows ?", "réponse": "Dans l'invite de commande (cmd), en tapant `java -version`." },
+      "en": { "question": "Where to check the Java version on Windows?", "answer": "In the command prompt (cmd) by typing `java -version`." }
+    },
+    {
+      "fr": { "question": "Comment vérifier la version Java sur Mac/Linux ?", "réponse": "Utilisez le Terminal et tapez `java -version`." },
+      "en": { "question": "How to check the Java version on Mac/Linux?", "answer": "Use the Terminal and type `java -version`." }
+    },
+    {
+      "fr": { "question": "Que signifie l'erreur 'commande non trouvée' lors de `java -version` ?", "réponse": "Java n'est pas installé ou la variable PATH est mal configurée." },
+      "en": { "question": "What does 'command not found' mean when using `java -version`?", "answer": "Java is not installed or the PATH variable is not properly set." }
+    },
+    {
+      "fr": { "question": "Comment vérifier plusieurs versions de Java installées ?", "réponse": "Utilisez `where java` sous Windows ou `which java` sous Mac/Linux pour voir le chemin utilisé." },
+      "en": { "question": "How to check multiple installed Java versions?", "answer": "Use `where java` on Windows or `which java` on Mac/Linux to see the active path." }
+    },
+    {
+      "fr": { "question": "Peut-on installer plusieurs versions de JDK sur une même machine ?", "réponse": "Oui, plusieurs JDK peuvent coexister en configurant correctement JAVA_HOME et PATH." },
+      "en": { "question": "Can multiple JDK versions be installed on the same machine?", "answer": "Yes, multiple JDKs can coexist by properly setting JAVA_HOME and PATH." }
+    },
+    {
+      "fr": { "question": "Comment basculer temporairement de JDK sous Linux/Mac ?", "réponse": "Changer JAVA_HOME et mettre à jour PATH dans le terminal pour la session en cours." },
+      "en": { "question": "How to temporarily switch JDK on Linux/Mac?", "answer": "Change JAVA_HOME and update PATH in the terminal for the current session." }
+    },
+    {
+      "fr": { "question": "Comment basculer définitivement de JDK sous Linux ?", "réponse": "Modifier `.bashrc`, `.bash_profile`, ou `.zshrc` pour définir JAVA_HOME et PATH." },
+      "en": { "question": "How to permanently switch JDK on Linux?", "answer": "Edit `.bashrc`, `.bash_profile`, or `.zshrc` to set JAVA_HOME and PATH." }
+    },
+    {
+      "fr": { "question": "Comment basculer entre JDKs sous Windows ?", "réponse": "Utiliser les variables d'environnement système pour changer JAVA_HOME et modifier le PATH." },
+      "en": { "question": "How to switch between JDKs on Windows?", "answer": "Use system environment variables to change JAVA_HOME and modify the PATH." }
+    },
+    {
+      "fr": { "question": "Existe-t-il un outil pour faciliter la gestion des versions Java ?", "réponse": "Oui, `sdkman` sous Linux/Mac ou `jenv` facilite la gestion de plusieurs JDK." },
+      "en": { "question": "Is there a tool to manage multiple Java versions?", "answer": "Yes, `sdkman` on Linux/Mac or `jenv` helps manage multiple JDKs easily." }
+    },
+    {
+      "fr": { "question": "Pourquoi installer plusieurs JDK ?", "réponse": "Pour tester des projets sur différentes versions ou utiliser des fonctionnalités spécifiques d'une version." },
+      "en": { "question": "Why install multiple JDKs?", "answer": "To test projects on different versions or use version-specific features." }
+    },
+    {
+      "fr": { "question": "Comment afficher JAVA_HOME actuel sous Windows ?", "réponse": "Ouvrez l'invite de commande et tapez `echo %JAVA_HOME%`." },
+      "en": { "question": "How to display current JAVA_HOME on Windows?", "answer": "Open Command Prompt and type `echo %JAVA_HOME%`." }
+    },
+    {
+      "fr": { "question": "Comment afficher JAVA_HOME actuel sous Linux/Mac ?", "réponse": "Dans le terminal, tapez `echo $JAVA_HOME`." },
+      "en": { "question": "How to display current JAVA_HOME on Linux/Mac?", "answer": "In the terminal, type `echo $JAVA_HOME`." }
+    },
+    {
+      "fr": { "question": "Comment définir JAVA_HOME temporairement sous Windows ?", "réponse": "Tapez `set JAVA_HOME=C:\\Program Files\\Java\\jdk-XX` dans cmd." },
+      "en": { "question": "How to set JAVA_HOME temporarily on Windows?", "answer": "Type `set JAVA_HOME=C:\\Program Files\\Java\\jdk-XX` in cmd." }
+    },
+    {
+      "fr": { "question": "Comment définir JAVA_HOME temporairement sous Linux/Mac ?", "réponse": "Utilisez `export JAVA_HOME=/chemin/vers/jdk` dans le terminal." },
+      "en": { "question": "How to set JAVA_HOME temporarily on Linux/Mac?", "answer": "Use `export JAVA_HOME=/path/to/jdk` in the terminal." }
+    },
+    {
+      "fr": { "question": "Comment définir JAVA_HOME définitivement sous Windows ?", "réponse": "Accédez aux variables d'environnement et ajoutez JAVA_HOME dans les variables système." },
+      "en": { "question": "How to set JAVA_HOME permanently on Windows?", "answer": "Go to environment variables and add JAVA_HOME under system variables." }
+    },
+    {
+      "fr": { "question": "Comment définir JAVA_HOME définitivement sous Linux/Mac ?", "réponse": "Ajoutez `export JAVA_HOME=/chemin/vers/jdk` dans `.bashrc`, `.zshrc`, ou `.bash_profile`." },
+      "en": { "question": "How to set JAVA_HOME permanently on Linux/Mac?", "answer": "Add `export JAVA_HOME=/path/to/jdk` in `.bashrc`, `.zshrc`, or `.bash_profile`." }
+    },
+    {
+      "fr": { "question": "Pourquoi ajouter JAVA_HOME au PATH ?", "réponse": "Pour que les commandes Java soient accessibles globalement." },
+      "en": { "question": "Why add JAVA_HOME to PATH?", "answer": "To make Java commands accessible globally." }
+    },
+    {
+      "fr": { "question": "Comment ajouter JAVA_HOME au PATH sous Windows ?", "réponse": "Ajoutez `%JAVA_HOME%\\bin` à la variable PATH." },
+      "en": { "question": "How to add JAVA_HOME to PATH on Windows?", "answer": "Add `%JAVA_HOME%\\bin` to the PATH variable." }
+    },
+    {
+      "fr": { "question": "Comment ajouter JAVA_HOME au PATH sous Linux/Mac ?", "réponse": "Ajoutez `export PATH=$JAVA_HOME/bin:$PATH` dans `.bashrc`, `.zshrc`, etc." },
+      "en": { "question": "How to add JAVA_HOME to PATH on Linux/Mac?", "answer": "Add `export PATH=$JAVA_HOME/bin:$PATH` in `.bashrc`, `.zshrc`, etc." }
+    },
+    {
+      "fr": { "question": "Comment appliquer immédiatement les changements de JAVA_HOME sur Linux/Mac ?", "réponse": "Utilisez `source ~/.bashrc` ou `source ~/.zshrc`." },
+      "en": { "question": "How to immediately apply JAVA_HOME changes on Linux/Mac?", "answer": "Use `source ~/.bashrc` or `source ~/.zshrc`." }
+    },
+    {
+      "fr": { "question": "Pourquoi mon JAVA_HOME ne prend-il pas effet sous Windows ?", "réponse": "Redémarrez le terminal ou la session après modification des variables." },
+      "en": { "question": "Why does JAVA_HOME not take effect on Windows?", "answer": "Restart the terminal or session after modifying environment variables." }
+    },
+    {
+      "fr": { "question": "Comment vérifier si JAVA_HOME pointe correctement ?", "réponse": "Tapez `java -version` et `echo %JAVA_HOME%` ou `echo $JAVA_HOME`." },
+      "en": { "question": "How to verify if JAVA_HOME points correctly?", "answer": "Type `java -version` and `echo %JAVA_HOME%` or `echo $JAVA_HOME`." }
+    },
+    {
+      "fr": { "question": "Que faire si plusieurs JDK sont installés ?", "réponse": "Changez JAVA_HOME selon le JDK voulu avant d'exécuter les commandes." },
+      "en": { "question": "What if multiple JDKs are installed?", "answer": "Switch JAVA_HOME to the desired JDK before running commands." }
+    },
+    {
+      "fr": { "question": "Quelle est la commande pour trouver tous les JDK installés sous Mac/Linux ?", "réponse": "Utilisez `ls /Library/Java/JavaVirtualMachines/`." },
+      "en": { "question": "What command lists all installed JDKs on Mac/Linux?", "answer": "Use `ls /Library/Java/JavaVirtualMachines/`." }
+    },
+    {
+      "fr": { "question": "Sous Windows, où sont installés par défaut les JDK ?", "réponse": "Dans `C:\\Program Files\\Java\\`." },
+      "en": { "question": "On Windows, where are JDKs installed by default?", "answer": "In `C:\\Program Files\\Java\\`." }
+    },
+    {
+      "fr": { "question": "Sous Linux, comment trouver l'installation par défaut de Java ?", "réponse": "Utilisez `update-alternatives --config java`." },
+      "en": { "question": "On Linux, how to find the default Java installation?", "answer": "Use `update-alternatives --config java`." }
+    },
+    {
+      "fr": { "question": "Existe-t-il une commande rapide pour changer JAVA_HOME sur Mac ?", "réponse": "Oui, utilisez `/usr/libexec/java_home` pour obtenir le chemin correct." },
+      "en": { "question": "Is there a quick command to change JAVA_HOME on Mac?", "answer": "Yes, use `/usr/libexec/java_home` to get the correct path." }
+    },
+    {
+      "fr": { "question": "Comment corriger une erreur JAVA_HOME introuvable ?", "réponse": "Vérifiez que JAVA_HOME pointe bien vers le dossier racine du JDK, pas vers /bin." },
+      "en": { "question": "How to fix a JAVA_HOME not found error?", "answer": "Ensure JAVA_HOME points to the JDK root directory, not to /bin." }
+    },
+    {
+      "fr": {
+        "question": "Que signifie l'erreur 'JAVA_HOME is not set' ?",
+        "réponse": "Cela signifie que la variable JAVA_HOME n'est pas définie dans votre environnement, empêchant certains outils Java de fonctionner."
+      },
+      "en": {
+        "question": "What does the 'JAVA_HOME is not set' error mean?",
+        "answer": "It means that the JAVA_HOME variable is not set in your environment, preventing some Java tools from working."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment corriger l'erreur 'JAVA_HOME is not set' sous Windows ?",
+        "réponse": "Définissez JAVA_HOME en ajoutant une variable système qui pointe vers le dossier d'installation du JDK."
+      },
+      "en": {
+        "question": "How to fix the 'JAVA_HOME is not set' error on Windows?",
+        "answer": "Set JAVA_HOME by adding a system variable pointing to your JDK installation folder."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment corriger l'erreur 'JAVA_HOME is not set' sous Linux/Mac ?",
+        "réponse": "Ajoutez `export JAVA_HOME=/chemin/vers/jdk` dans votre fichier `.bashrc` ou `.zshrc`."
+      },
+      "en": {
+        "question": "How to fix the 'JAVA_HOME is not set' error on Linux/Mac?",
+        "answer": "Add `export JAVA_HOME=/path/to/jdk` in your `.bashrc` or `.zshrc` file."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi ai-je l'erreur 'JAVA_HOME does not point to a valid JDK' ?",
+        "réponse": "Cela arrive lorsque JAVA_HOME est mal configuré et pointe vers un JRE ou un mauvais chemin, et non un JDK."
+      },
+      "en": {
+        "question": "Why do I get the 'JAVA_HOME does not point to a valid JDK' error?",
+        "answer": "It happens when JAVA_HOME is incorrectly set, pointing to a JRE or an invalid path instead of a JDK."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment vérifier si JAVA_HOME pointe vers un JDK valide ?",
+        "réponse": "Assurez-vous que le dossier contient les sous-dossiers `bin`, `include`, et `lib`, typiques d'un JDK."
+      },
+      "en": {
+        "question": "How to check if JAVA_HOME points to a valid JDK?",
+        "answer": "Make sure the folder contains `bin`, `include`, and `lib` subdirectories, typical for a JDK."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que faire si JAVA_HOME est correct mais le terminal ne le reconnaît pas ?",
+        "réponse": "Rechargez votre profil utilisateur avec `source ~/.bashrc` ou redémarrez votre terminal."
+      },
+      "en": {
+        "question": "What if JAVA_HOME is correct but the terminal doesn't recognize it?",
+        "answer": "Reload your user profile with `source ~/.bashrc` or restart your terminal."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la JVM (Java Virtual Machine) ?",
+        "réponse": "La JVM est un moteur d'exécution qui permet aux programmes Java de s'exécuter sur toute plateforme sans modification du code source. Elle lit et exécute le bytecode généré par le compilateur Java."
+      },
+      "en": {
+        "question": "What is the JVM (Java Virtual Machine)?",
+        "answer": "The JVM is an execution engine that enables Java programs to run on any platform without source code modification. It reads and executes the bytecode produced by the Java compiler."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels sont les principaux composants de la JVM ?",
+        "réponse": "Les composants principaux de la JVM incluent le chargeur de classes (Class Loader), les zones mémoire (Heap, Stack, Method Area, etc.), le moteur d'exécution (Execution Engine) et les bibliothèques natives."
+      },
+      "en": {
+        "question": "What are the main components of the JVM?",
+        "answer": "The main components of the JVM include the Class Loader, memory areas (Heap, Stack, Method Area, etc.), the Execution Engine, and native libraries."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le rôle du chargeur de classes (Class Loader) ?",
+        "réponse": "Le Class Loader est responsable de charger les classes Java dans la mémoire au moment de l'exécution. Il permet la séparation entre l'importation et l'exécution des classes, assurant ainsi la modularité et la sécurité."
+      },
+      "en": {
+        "question": "What is the role of the Class Loader?",
+        "answer": "The Class Loader is responsible for loading Java classes into memory at runtime. It separates class loading from execution, ensuring modularity and security."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la zone Heap dans la JVM ?",
+        "réponse": "La zone Heap est la mémoire utilisée pour stocker les objets Java et les variables d'instance. C'est une partie dynamique de la mémoire gérée par le ramasse-miettes (Garbage Collector)."
+      },
+      "en": {
+        "question": "What is the Heap area in the JVM?",
+        "answer": "The Heap area is the memory used to store Java objects and instance variables. It is a dynamic memory section managed by the Garbage Collector."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la Stack dans la JVM ?",
+        "réponse": "La Stack est une mémoire utilisée pour stocker les variables locales et les appels de méthode. Chaque thread dispose de sa propre pile pour garantir l'isolation."
+      },
+      "en": {
+        "question": "What is the Stack in the JVM?",
+        "answer": "The Stack is memory used to store local variables and method calls. Each thread has its own stack to ensure isolation."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que contient la Method Area ?",
+        "réponse": "La Method Area contient les structures de données liées aux classes comme les informations sur les méthodes, les champs, les constantes, ainsi que le code compilé pour les méthodes."
+      },
+      "en": {
+        "question": "What does the Method Area contain?",
+        "answer": "The Method Area contains class-related data structures like method information, fields, constants, and compiled code for methods."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert le moteur d'exécution (Execution Engine) ?",
+        "réponse": "Le moteur d'exécution interprète le bytecode ou le compile en code machine grâce à la compilation Just-In-Time (JIT), ce qui accélère considérablement les performances."
+      },
+      "en": {
+        "question": "What is the purpose of the Execution Engine?",
+        "answer": "The Execution Engine interprets the bytecode or compiles it into machine code using Just-In-Time (JIT) compilation, significantly boosting performance."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que le Garbage Collector ?",
+        "réponse": "Le Garbage Collector est un processus automatique de la JVM qui libère la mémoire en récupérant les objets qui ne sont plus accessibles, améliorant ainsi la gestion de la mémoire."
+      },
+      "en": {
+        "question": "What is the Garbage Collector?",
+        "answer": "The Garbage Collector is an automatic process in the JVM that frees up memory by reclaiming objects that are no longer accessible, improving memory management."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels types de Garbage Collector existent ?",
+        "réponse": "Parmi les types de Garbage Collector, on trouve Serial GC, Parallel GC, CMS (Concurrent Mark Sweep) GC, et G1 (Garbage First) GC, chacun optimisé pour différents besoins."
+      },
+      "en": {
+        "question": "What types of Garbage Collectors exist?",
+        "answer": "Types of Garbage Collectors include Serial GC, Parallel GC, CMS (Concurrent Mark Sweep) GC, and G1 (Garbage First) GC, each optimized for different needs."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment la JVM gère-t-elle plusieurs threads ?",
+        "réponse": "La JVM supporte le multithreading nativement. Chaque thread possède sa propre pile et utilise des mécanismes de synchronisation pour gérer l'accès concurrent aux ressources partagées."
+      },
+      "en": {
+        "question": "How does the JVM handle multiple threads?",
+        "answer": "The JVM natively supports multithreading. Each thread has its own stack and uses synchronization mechanisms to manage concurrent access to shared resources."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la relation entre JVM et Java bytecode ?",
+        "réponse": "La JVM est conçue pour lire et exécuter le bytecode Java, qui est une version intermédiaire compilée indépendante de la plateforme, garantissant ainsi la portabilité du code Java."
+      },
+      "en": {
+        "question": "What is the relationship between JVM and Java bytecode?",
+        "answer": "The JVM is designed to read and execute Java bytecode, which is a compiled intermediate form that is platform-independent, thus ensuring Java code portability."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels sont les avantages de la JVM ?",
+        "réponse": "Les avantages de la JVM incluent la portabilité du code, la gestion automatique de la mémoire, le support multithread, et l'optimisation du code via JIT."
+      },
+      "en": {
+        "question": "What are the advantages of the JVM?",
+        "answer": "Advantages of the JVM include code portability, automatic memory management, multithreading support, and code optimization via JIT."
+      }
+    },
+    {
+      "fr": {
+        "question": "La JVM est-elle spécifique à Java ?",
+        "réponse": "Bien qu'elle soit principalement associée à Java, la JVM peut exécuter d'autres langages comme Kotlin, Scala et Groovy qui génèrent également du bytecode compatible."
+      },
+      "en": {
+        "question": "Is the JVM specific to Java?",
+        "answer": "Although primarily associated with Java, the JVM can also execute other languages like Kotlin, Scala, and Groovy that generate compatible bytecode."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on personnaliser la configuration de la JVM ?",
+        "réponse": "Oui, la JVM offre de nombreux paramètres configurables (taille de la mémoire Heap, politique de Garbage Collector, options de JIT, etc.) pour optimiser les performances selon les besoins de l'application."
+      },
+      "en": {
+        "question": "Can the JVM configuration be customized?",
+        "answer": "Yes, the JVM offers many configurable settings (Heap memory size, Garbage Collector policy, JIT options, etc.) to optimize performance based on application needs."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que Just-In-Time (JIT) Compilation ?",
+        "réponse": "La compilation Just-In-Time (JIT) transforme le bytecode Java en code machine natif à l'exécution, ce qui réduit les temps d'interprétation et améliore les performances."
+      },
+      "en": {
+        "question": "What is Just-In-Time (JIT) Compilation?",
+        "answer": "Just-In-Time (JIT) compilation converts Java bytecode into native machine code at runtime, reducing interpretation time and improving performance."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que la Native Interface (JNI) dans la JVM ?",
+        "réponse": "La JNI (Java Native Interface) permet à une application Java d'appeler des fonctions écrites en langages natifs comme C ou C++, ce qui offre plus de flexibilité mais réduit la portabilité."
+      },
+      "en": {
+        "question": "What is the Native Interface (JNI) in the JVM?",
+        "answer": "JNI (Java Native Interface) allows a Java application to call functions written in native languages like C or C++, offering more flexibility but reducing portability."
+      }
+    },
+    {
+      "fr": {
+        "question": "La JVM est-elle la même sur toutes les plateformes ?",
+        "réponse": "Non, bien que la spécification soit la même, les implémentations de la JVM peuvent différer en termes de performances, de fonctionnalités et d'optimisations selon les plateformes."
+      },
+      "en": {
+        "question": "Is the JVM the same across all platforms?",
+        "answer": "No, although the specification is the same, JVM implementations can differ in performance, features, and optimizations depending on the platform."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est l'importance de la spécification JVM ?",
+        "réponse": "La spécification de la JVM assure que n'importe quelle implémentation correcte peut exécuter du bytecode Java de manière cohérente, garantissant ainsi la portabilité du langage Java."
+      },
+      "en": {
+        "question": "Why is the JVM specification important?",
+        "answer": "The JVM specification ensures that any correct implementation can execute Java bytecode consistently, thereby guaranteeing the portability of the Java language."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une variable en Java ?",
+        "réponse": "Une variable est un conteneur pour stocker des données pendant l'exécution d'un programme. Elle possède un type, un nom et peut contenir une valeur."
+      },
+      "en": {
+        "question": "What is a variable in Java?",
+        "answer": "A variable is a container for storing data during program execution. It has a type, a name, and can hold a value."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels sont les différents types de variables en Java ?",
+        "réponse": "Il existe trois types principaux de variables en Java : variables locales, variables d'instance et variables de classe (ou variables statiques)."
+      },
+      "en": {
+        "question": "What are the different types of variables in Java?",
+        "answer": "There are three main types of variables in Java: local variables, instance variables, and class (static) variables."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une variable locale ?",
+        "réponse": "Une variable locale est déclarée à l'intérieur d'une méthode ou d'un bloc et est accessible uniquement dans ce contexte."
+      },
+      "en": {
+        "question": "What is a local variable?",
+        "answer": "A local variable is declared inside a method or block and is accessible only within that scope."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une variable d'instance ?",
+        "réponse": "Une variable d'instance est déclarée dans une classe mais en dehors de toute méthode. Chaque instance de la classe a sa propre copie de cette variable."
+      },
+      "en": {
+        "question": "What is an instance variable?",
+        "answer": "An instance variable is declared in a class but outside any method. Each instance of the class has its own copy of this variable."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une variable de classe (statique) ?",
+        "réponse": "Une variable de classe est déclarée avec le mot-clé static. Elle appartient à la classe plutôt qu'aux instances, donc une seule copie est partagée entre toutes les instances."
+      },
+      "en": {
+        "question": "What is a class (static) variable?",
+        "answer": "A class variable is declared with the static keyword. It belongs to the class rather than to instances, so a single copy is shared among all instances."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment déclare-t-on une variable en Java ?",
+        "réponse": "On déclare une variable en indiquant son type suivi de son nom, par exemple : int age;"
+      },
+      "en": {
+        "question": "How is a variable declared in Java?",
+        "answer": "A variable is declared by specifying its type followed by its name, e.g., int age;"
+      }
+    },
+    {
+      "fr": {
+        "question": "Que se passe-t-il si une variable locale n'est pas initialisée ?",
+        "réponse": "Si une variable locale n'est pas initialisée avant utilisation, le compilateur Java renverra une erreur."
+      },
+      "en": {
+        "question": "What happens if a local variable is not initialized?",
+        "answer": "If a local variable is not initialized before use, the Java compiler will throw an error."
+      }
+    },
+    {
+      "fr": {
+        "question": "Les variables d'instance ont-elles une valeur par défaut ?",
+        "réponse": "Oui, les variables d'instance ont des valeurs par défaut basées sur leur type : 0 pour int, null pour les objets, etc."
+      },
+      "en": {
+        "question": "Do instance variables have a default value?",
+        "answer": "Yes, instance variables have default values based on their type: 0 for int, null for objects, etc."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie 'initialiser' une variable ?",
+        "réponse": "Initialiser une variable signifie lui attribuer une première valeur au moment de sa déclaration ou avant son utilisation."
+      },
+      "en": {
+        "question": "What does 'initializing' a variable mean?",
+        "answer": "Initializing a variable means assigning it an initial value at the time of declaration or before using it."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on changer le type d'une variable après sa déclaration ?",
+        "réponse": "Non, en Java, une fois une variable déclarée avec un type, ce type ne peut pas être modifié."
+      },
+      "en": {
+        "question": "Can you change a variable's type after declaration?",
+        "answer": "No, in Java, once a variable is declared with a type, its type cannot be changed."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'une constante en Java ?",
+        "réponse": "Une constante est une variable déclarée avec le mot-clé final ; sa valeur ne peut être modifiée après l'initialisation."
+      },
+      "en": {
+        "question": "What is a constant in Java?",
+        "answer": "A constant is a variable declared with the final keyword; its value cannot be changed after initialization."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie le mot-clé final appliqué à une variable ?",
+        "réponse": "Le mot-clé final rend une variable immuable, c'est-à-dire qu'elle doit être initialisée une seule fois et ne peut plus être modifiée."
+      },
+      "en": {
+        "question": "What does the final keyword mean when applied to a variable?",
+        "answer": "The final keyword makes a variable immutable, meaning it must be initialized once and cannot be modified afterwards."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on avoir deux variables avec le même nom dans des blocs différents ?",
+        "réponse": "Oui, deux variables locales dans des blocs séparés peuvent avoir le même nom car elles sont dans des portées différentes."
+      },
+      "en": {
+        "question": "Can two variables with the same name exist in different blocks?",
+        "answer": "Yes, two local variables in separate blocks can have the same name because they belong to different scopes."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment les variables sont-elles stockées en mémoire ?",
+        "réponse": "Les variables locales sont stockées dans la Stack, tandis que les variables d'instance et de classe sont stockées dans la Heap."
+      },
+      "en": {
+        "question": "How are variables stored in memory?",
+        "answer": "Local variables are stored in the Stack, while instance and class variables are stored in the Heap."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la portée d'une variable locale ?",
+        "réponse": "La portée d'une variable locale est limitée au bloc ou à la méthode dans laquelle elle est déclarée."
+      },
+      "en": {
+        "question": "What is the scope of a local variable?",
+        "answer": "The scope of a local variable is limited to the block or method in which it is declared."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la portée d'une variable d'instance ?",
+        "réponse": "La portée d'une variable d'instance est toute la durée de vie de l'objet qui la possède."
+      },
+      "en": {
+        "question": "What is the scope of an instance variable?",
+        "answer": "The scope of an instance variable is the entire lifetime of the object that owns it."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la portée d'une variable de classe ?",
+        "réponse": "La portée d'une variable de classe est toute la durée de vie de l'application."
+      },
+      "en": {
+        "question": "What is the scope of a class variable?",
+        "answer": "The scope of a class variable is the entire lifetime of the application."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on utiliser le même nom pour une variable locale et une variable d'instance ?",
+        "réponse": "Oui, mais la variable locale masquera la variable d'instance dans la portée locale. On utilise 'this' pour distinguer la variable d'instance."
+      },
+      "en": {
+        "question": "Can a local and an instance variable have the same name?",
+        "answer": "Yes, but the local variable will shadow the instance variable in the local scope. 'this' keyword is used to distinguish the instance variable."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels sont les types de données principaux en Java ?",
+        "réponse": "Java dispose de deux catégories de types de données : types primitifs et types références."
+      },
+      "en": {
+        "question": "What are the main data types in Java?",
+        "answer": "Java has two main categories of data types: primitive types and reference types."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels sont les 8 types de données primitifs en Java ?",
+        "réponse": "Les 8 types primitifs sont : byte, short, int, long, float, double, char, boolean."
+      },
+      "en": {
+        "question": "What are the 8 primitive data types in Java?",
+        "answer": "The 8 primitive types are: byte, short, int, long, float, double, char, boolean."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un type de référence en Java ?",
+        "réponse": "Un type de référence fait référence à un objet. Exemples : tableaux, classes, interfaces, chaînes de caractères."
+      },
+      "en": {
+        "question": "What is a reference type in Java?",
+        "answer": "A reference type refers to an object. Examples include arrays, classes, interfaces, and strings."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la taille d'un int en Java ?",
+        "réponse": "Un int occupe 4 octets (32 bits) en Java."
+      },
+      "en": {
+        "question": "What is the size of an int in Java?",
+        "answer": "An int occupies 4 bytes (32 bits) in Java."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la valeur par défaut d'un boolean ?",
+        "réponse": "La valeur par défaut d'un boolean est false."
+      },
+      "en": {
+        "question": "What is the default value of a boolean?",
+        "answer": "The default value of a boolean is false."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la différence entre float et double ?",
+        "réponse": "float utilise 32 bits pour stocker des nombres décimaux, tandis que double utilise 64 bits pour une plus grande précision."
+      },
+      "en": {
+        "question": "What is the difference between float and double?",
+        "answer": "float uses 32 bits to store decimal numbers, while double uses 64 bits for greater precision."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment déclarer un char en Java ?",
+        "réponse": "On utilise des guillemets simples, par exemple : char lettre = 'A';"
+      },
+      "en": {
+        "question": "How do you declare a char in Java?",
+        "answer": "You use single quotes, for example: char letter = 'A';"
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la valeur Unicode minimale pour un char ?",
+        "réponse": "La valeur Unicode minimale est '\\u0000'."
+      },
+      "en": {
+        "question": "What is the minimum Unicode value for a char?",
+        "answer": "The minimum Unicode value is '\\u0000'."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la valeur maximale d'un byte ?",
+        "réponse": "La valeur maximale d'un byte est 127."
+      },
+      "en": {
+        "question": "What is the maximum value of a byte?",
+        "answer": "The maximum value of a byte is 127."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la valeur minimale d'un byte ?",
+        "réponse": "La valeur minimale d'un byte est -128."
+      },
+      "en": {
+        "question": "What is the minimum value of a byte?",
+        "answer": "The minimum value of a byte is -128."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la taille d'un long en Java ?",
+        "réponse": "Un long occupe 8 octets (64 bits)."
+      },
+      "en": {
+        "question": "What is the size of a long in Java?",
+        "answer": "A long occupies 8 bytes (64 bits)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on stocker un int dans un byte ?",
+        "réponse": "Non, car int est plus grand que byte. Il faut un casting explicite."
+      },
+      "en": {
+        "question": "Can an int be stored in a byte?",
+        "answer": "No, because int is larger than byte. Explicit casting is needed."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment convertir un int en double ?",
+        "réponse": "La conversion se fait automatiquement (widening conversion)."
+      },
+      "en": {
+        "question": "How to convert an int to a double?",
+        "answer": "The conversion happens automatically (widening conversion)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que se passe-t-il si vous dépassez la limite d'un int ?",
+        "réponse": "Cela provoque un débordement (overflow) et le résultat devient négatif."
+      },
+      "en": {
+        "question": "What happens if you exceed the limit of an int?",
+        "answer": "It causes an overflow and the result becomes negative."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la valeur maximale d'un int ?",
+        "réponse": "La valeur maximale est 2,147,483,647."
+      },
+      "en": {
+        "question": "What is the maximum value of an int?",
+        "answer": "The maximum value is 2,147,483,647."
+      }
+    },
+    {
+      "fr": {
+        "question": "Est-ce que String est un type primitif ?",
+        "réponse": "Non, String est un type de référence représentant un objet."
+      },
+      "en": {
+        "question": "Is String a primitive type?",
+        "answer": "No, String is a reference type representing an object."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie 'autoboxing' en Java ?",
+        "réponse": "Autoboxing est la conversion automatique d'un type primitif en son objet wrapper (ex: int vers Integer)."
+      },
+      "en": {
+        "question": "What is 'autoboxing' in Java?",
+        "answer": "Autoboxing is the automatic conversion of a primitive type into its wrapper object (e.g., int to Integer)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie 'unboxing' en Java ?",
+        "réponse": "Unboxing est la conversion automatique d'un objet wrapper vers son type primitif (ex: Integer vers int)."
+      },
+      "en": {
+        "question": "What is 'unboxing' in Java?",
+        "answer": "Unboxing is the automatic conversion of a wrapper object into its primitive type (e.g., Integer to int)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que l'Unicode en Java ?",
+        "réponse": "Unicode est un standard de codage universel utilisé pour représenter du texte dans la plupart des systèmes d'écriture du monde."
+      },
+      "en": {
+        "question": "What is Unicode in Java?",
+        "answer": "Unicode is a universal encoding standard used to represent text for most of the world’s writing systems."
+      }
+    },
+    {
+      "fr": {
+        "question": "Pourquoi Java utilise-t-il Unicode ?",
+        "réponse": "Java utilise Unicode pour assurer la portabilité et le support multilingue dans les applications."
+      },
+      "en": {
+        "question": "Why does Java use Unicode?",
+        "answer": "Java uses Unicode to ensure portability and multilingual support in applications."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le type Java basé sur Unicode ?",
+        "réponse": "Le type char en Java est basé sur l'encodage Unicode."
+      },
+      "en": {
+        "question": "Which Java type is based on Unicode?",
+        "answer": "The char type in Java is based on Unicode encoding."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la taille d'un char en Java ?",
+        "réponse": "Un char occupe 2 octets (16 bits) en Java."
+      },
+      "en": {
+        "question": "What is the size of a char in Java?",
+        "answer": "A char occupies 2 bytes (16 bits) in Java."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment représenter un caractère Unicode en Java ?",
+        "réponse": "On utilise la syntaxe '\\uXXXX' où XXXX est le code hexadécimal Unicode."
+      },
+      "en": {
+        "question": "How to represent a Unicode character in Java?",
+        "answer": "Use the syntax '\\uXXXX' where XXXX is the Unicode hexadecimal code."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que signifie '\\u0041' en Java ?",
+        "réponse": "'\\u0041' représente la lettre 'A' en Unicode."
+      },
+      "en": {
+        "question": "What does '\\u0041' mean in Java?",
+        "answer": "'\\u0041' represents the letter 'A' in Unicode."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on afficher un emoji en Java avec Unicode ?",
+        "réponse": "Oui, en utilisant des codes Unicode correspondants aux emojis."
+      },
+      "en": {
+        "question": "Can you display an emoji in Java using Unicode?",
+        "answer": "Yes, by using Unicode codes corresponding to emojis."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel package Java gère les jeux de caractères Unicode ?",
+        "réponse": "Le package java.nio.charset contient des classes pour gérer les encodages Unicode."
+      },
+      "en": {
+        "question": "Which Java package handles Unicode character sets?",
+        "answer": "The java.nio.charset package contains classes to handle Unicode encodings."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment convertir un caractère Unicode en String ?",
+        "réponse": "On peut utiliser Character.toString(char) ou simplement concaténer."
+      },
+      "en": {
+        "question": "How to convert a Unicode character to a String?",
+        "answer": "You can use Character.toString(char) or simple concatenation."
+      }
+    },
+    {
+      "fr": {
+        "question": "Unicode couvre combien de caractères ?",
+        "réponse": "Unicode couvre plus de 143 000 caractères de différents systèmes d'écriture."
+      },
+      "en": {
+        "question": "How many characters does Unicode cover?",
+        "answer": "Unicode covers more than 143,000 characters from different writing systems."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle version de Java a introduit un support complet de Unicode ?",
+        "réponse": "Java 1.1 a amélioré le support Unicode avec UTF-16 pour les chaînes."
+      },
+      "en": {
+        "question": "Which version of Java introduced full Unicode support?",
+        "answer": "Java 1.1 enhanced Unicode support with UTF-16 for strings."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un code point Unicode ?",
+        "réponse": "Un code point est une valeur numérique attribuée à un caractère Unicode."
+      },
+      "en": {
+        "question": "What is a Unicode code point?",
+        "answer": "A code point is a numerical value assigned to a Unicode character."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment obtenir le code point d'un caractère en Java ?",
+        "réponse": "Utiliser la méthode Character.codePointAt()."
+      },
+      "en": {
+        "question": "How to get the code point of a character in Java?",
+        "answer": "Use the Character.codePointAt() method."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment vérifier si un caractère est valide Unicode en Java ?",
+        "réponse": "Utiliser Character.isDefined(char)."
+      },
+      "en": {
+        "question": "How to check if a character is a valid Unicode character in Java?",
+        "answer": "Use Character.isDefined(char)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que représente '\\u20AC' en Java ?",
+        "réponse": "'\\u20AC' représente le symbole de l'euro (€)."
+      },
+      "en": {
+        "question": "What does '\\u20AC' represent in Java?",
+        "answer": "'\\u20AC' represents the euro (€) symbol."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la gamme de valeurs Unicode de base ?",
+        "réponse": "La gamme de base Unicode est de 0 à 65 535 (0x0000 à 0xFFFF)."
+      },
+      "en": {
+        "question": "What is the basic Unicode range?",
+        "answer": "The basic Unicode range is from 0 to 65,535 (0x0000 to 0xFFFF)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels encodages Unicode sont couramment utilisés en Java ?",
+        "réponse": "Les encodages courants sont UTF-8 et UTF-16."
+      },
+      "en": {
+        "question": "Which Unicode encodings are commonly used in Java?",
+        "answer": "Common encodings are UTF-8 and UTF-16."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment afficher un caractère Unicode spécial en Java ?",
+        "réponse": "En imprimant une chaîne contenant le code Unicode, par exemple System.out.println('\\u03A9') pour 'Ω'."
+      },
+      "en": {
+        "question": "How to display a special Unicode character in Java?",
+        "answer": "By printing a string containing the Unicode code, e.g., System.out.println('\\u03A9') for 'Ω'."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un opérateur en Java ?",
+        "réponse": "Un opérateur est un symbole qui effectue une opération spécifique sur une ou plusieurs variables."
+      },
+      "en": {
+        "question": "What is an operator in Java?",
+        "answer": "An operator is a symbol that performs a specific operation on one or more variables."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels sont les types principaux d'opérateurs en Java ?",
+        "réponse": "Les principaux types sont : arithmétiques, relationnels, logiques, bit à bit, d'affectation, et ternaires."
+      },
+      "en": {
+        "question": "What are the main types of operators in Java?",
+        "answer": "The main types are: arithmetic, relational, logical, bitwise, assignment, and ternary operators."
+      }
+    },
+    {
+      "fr": {
+        "question": "Donnez un exemple d'opérateur arithmétique en Java.",
+        "réponse": "L'opérateur '+' pour l'addition est un exemple d'opérateur arithmétique."
+      },
+      "en": {
+        "question": "Give an example of an arithmetic operator in Java.",
+        "answer": "The '+' operator for addition is an example of an arithmetic operator."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels opérateurs Java sont utilisés pour la comparaison ?",
+        "réponse": "Les opérateurs ==, !=, >, <, >=, <= sont utilisés pour la comparaison."
+      },
+      "en": {
+        "question": "Which Java operators are used for comparison?",
+        "answer": "The operators ==, !=, >, <, >=, <= are used for comparison."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait l'opérateur '==' en Java ?",
+        "réponse": "Il teste si deux valeurs sont égales."
+      },
+      "en": {
+        "question": "What does the '==' operator do in Java?",
+        "answer": "It tests whether two values are equal."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la différence entre '==' et '=' en Java ?",
+        "réponse": "'==' compare deux valeurs, '=' assigne une valeur à une variable."
+      },
+      "en": {
+        "question": "What is the difference between '==' and '=' in Java?",
+        "answer": "'==' compares two values, '=' assigns a value to a variable."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels opérateurs sont utilisés pour les opérations logiques en Java ?",
+        "réponse": "&& (ET logique), || (OU logique), ! (NON logique) sont utilisés."
+      },
+      "en": {
+        "question": "Which operators are used for logical operations in Java?",
+        "answer": "&& (logical AND), || (logical OR), ! (logical NOT) are used."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert l'opérateur '&&' en Java ?",
+        "réponse": "Il retourne true si les deux expressions sont vraies."
+      },
+      "en": {
+        "question": "What is the '&&' operator used for in Java?",
+        "answer": "It returns true if both expressions are true."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un opérateur bit à bit en Java ?",
+        "réponse": "Un opérateur qui effectue des opérations au niveau des bits, comme &, |, ^, ~, <<, >>."
+      },
+      "en": {
+        "question": "What is a bitwise operator in Java?",
+        "answer": "An operator that performs operations at the bit level, such as &, |, ^, ~, <<, >>."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait l'opérateur '|' en Java ?",
+        "réponse": "Il effectue un OU bit à bit entre deux valeurs."
+      },
+      "en": {
+        "question": "What does the '|' operator do in Java?",
+        "answer": "It performs a bitwise OR between two values."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un opérateur d'affectation composé ?",
+        "réponse": "Un opérateur qui combine une opération et une affectation, comme +=, -=, *=."
+      },
+      "en": {
+        "question": "What is a compound assignment operator?",
+        "answer": "An operator that combines an operation with assignment, like +=, -=, *=."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait l'opérateur '+=' en Java ?",
+        "réponse": "Il ajoute une valeur à la variable et assigne le résultat à la même variable."
+      },
+      "en": {
+        "question": "What does the '+=' operator do in Java?",
+        "answer": "It adds a value to the variable and assigns the result to the same variable."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un opérateur ternaire en Java ?",
+        "réponse": "Un opérateur qui retourne une valeur parmi deux, selon une condition : condition ? valeur1 : valeur2."
+      },
+      "en": {
+        "question": "What is a ternary operator in Java?",
+        "answer": "An operator that returns one of two values depending on a condition: condition ? value1 : value2."
+      }
+    },
+    {
+      "fr": {
+        "question": "Donnez un exemple d'opérateur ternaire en Java.",
+        "réponse": "int min = (a < b) ? a : b;"
+      },
+      "en": {
+        "question": "Give an example of a ternary operator in Java.",
+        "answer": "int min = (a < b) ? a : b;"
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait l'opérateur 'instanceof' ?",
+        "réponse": "Il teste si un objet est d'une classe spécifique ou de sa sous-classe."
+      },
+      "en": {
+        "question": "What does the 'instanceof' operator do?",
+        "answer": "It tests whether an object is an instance of a specific class or subclass."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on surcharger les opérateurs en Java ?",
+        "réponse": "Non, Java ne supporte pas la surcharge des opérateurs comme C++."
+      },
+      "en": {
+        "question": "Can you overload operators in Java?",
+        "answer": "No, Java does not support operator overloading like C++."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la priorité des opérateurs en Java ?",
+        "réponse": "La priorité définit l'ordre d'évaluation des opérateurs dans une expression."
+      },
+      "en": {
+        "question": "What is operator precedence in Java?",
+        "answer": "Operator precedence defines the order in which operators are evaluated in an expression."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait l'opérateur '++' en Java ?",
+        "réponse": "Il incrémente la valeur d'une variable de 1."
+      },
+      "en": {
+        "question": "What does the '++' operator do in Java?",
+        "answer": "It increments a variable's value by 1."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce qu'un mot-clé en Java ?",
+        "réponse": "Un mot-clé est un mot réservé ayant une signification spéciale dans le langage Java."
+      },
+      "en": {
+        "question": "What is a keyword in Java?",
+        "answer": "A keyword is a reserved word that has a special meaning in the Java language."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on utiliser un mot-clé comme nom de variable ?",
+        "réponse": "Non, un mot-clé ne peut pas être utilisé comme nom de variable."
+      },
+      "en": {
+        "question": "Can you use a keyword as a variable name?",
+        "answer": "No, a keyword cannot be used as a variable name."
+      }
+    },
+    {
+      "fr": {
+        "question": "Combien de mots-clés Java existe-t-il actuellement ?",
+        "réponse": "Il existe 50 mots-clés réservés en Java."
+      },
+      "en": {
+        "question": "How many keywords are there currently in Java?",
+        "answer": "There are 50 reserved keywords in Java."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel mot-clé est utilisé pour définir une classe ?",
+        "réponse": "Le mot-clé 'class' est utilisé."
+      },
+      "en": {
+        "question": "Which keyword is used to define a class?",
+        "answer": "The 'class' keyword is used."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert le mot-clé 'public' en Java ?",
+        "réponse": "Il rend un élément accessible de n'importe où dans le programme."
+      },
+      "en": {
+        "question": "What is the purpose of the 'public' keyword in Java?",
+        "answer": "It makes an element accessible from anywhere in the program."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait le mot-clé 'static' ?",
+        "réponse": "Il indique qu'un membre appartient à la classe et non aux instances."
+      },
+      "en": {
+        "question": "What does the 'static' keyword do?",
+        "answer": "It means that a member belongs to the class rather than instances."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel mot-clé est utilisé pour hériter d'une classe ?",
+        "réponse": "Le mot-clé 'extends' est utilisé."
+      },
+      "en": {
+        "question": "Which keyword is used to inherit a class?",
+        "answer": "The 'extends' keyword is used."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est l'usage du mot-clé 'interface' ?",
+        "réponse": "Il est utilisé pour déclarer une interface."
+      },
+      "en": {
+        "question": "What is the use of the 'interface' keyword?",
+        "answer": "It is used to declare an interface."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel mot-clé est utilisé pour définir une constante ?",
+        "réponse": "Le mot-clé 'final' est utilisé."
+      },
+      "en": {
+        "question": "Which keyword is used to define a constant?",
+        "answer": "The 'final' keyword is used."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert le mot-clé 'this' ?",
+        "réponse": "Il fait référence à l'objet courant."
+      },
+      "en": {
+        "question": "What is the purpose of the 'this' keyword?",
+        "answer": "It refers to the current object."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait le mot-clé 'super' ?",
+        "réponse": "Il fait référence à la classe parente immédiate."
+      },
+      "en": {
+        "question": "What does the 'super' keyword do?",
+        "answer": "It refers to the immediate parent class."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel mot-clé est utilisé pour créer un nouvel objet ?",
+        "réponse": "Le mot-clé 'new' est utilisé."
+      },
+      "en": {
+        "question": "Which keyword is used to create a new object?",
+        "answer": "The 'new' keyword is used."
+      }
+    },
+    {
+      "fr": {
+        "question": "Qu'est-ce que le mot-clé 'null' en Java ?",
+        "réponse": "'null' représente une référence vide."
+      },
+      "en": {
+        "question": "What is the 'null' keyword in Java?",
+        "answer": "'null' represents an empty reference."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel mot-clé est utilisé pour lancer une exception ?",
+        "réponse": "Le mot-clé 'throw' est utilisé."
+      },
+      "en": {
+        "question": "Which keyword is used to throw an exception?",
+        "answer": "The 'throw' keyword is used."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait le mot-clé 'try' ?",
+        "réponse": "Il définit un bloc de code où des exceptions peuvent se produire."
+      },
+      "en": {
+        "question": "What does the 'try' keyword do?",
+        "answer": "It defines a block of code where exceptions may occur."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert le mot-clé 'finally' ?",
+        "réponse": "Il définit un bloc qui s'exécute toujours après 'try' ou 'catch'."
+      },
+      "en": {
+        "question": "What is the purpose of the 'finally' keyword?",
+        "answer": "It defines a block that always executes after 'try' or 'catch'."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est l'usage du mot-clé 'abstract' ?",
+        "réponse": "Il est utilisé pour définir une classe ou méthode abstraite."
+      },
+      "en": {
+        "question": "What is the use of the 'abstract' keyword?",
+        "answer": "It is used to define an abstract class or method."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel mot-clé est utilisé pour synchroniser un bloc ?",
+        "réponse": "Le mot-clé 'synchronized' est utilisé."
+      },
+      "en": {
+        "question": "Which keyword is used to synchronize a block?",
+        "answer": "The 'synchronized' keyword is used."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que sont les instructions de contrôle en Java ?",
+        "réponse": "Les instructions de contrôle permettent de diriger le flux d'exécution du programme selon des conditions ou des répétitions."
+      },
+      "en": {
+        "question": "What are control statements in Java?",
+        "answer": "Control statements allow directing the program’s execution flow based on conditions or repetitions."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels sont les principaux types d'instructions de contrôle en Java ?",
+        "réponse": "Conditionnelles (if, switch), Boucles (for, while, do-while) et de Saut (break, continue, return)."
+      },
+      "en": {
+        "question": "What are the main types of control statements in Java?",
+        "answer": "Conditional (if, switch), Looping (for, while, do-while), and Jump (break, continue, return)."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est le but de l'instruction if ?",
+        "réponse": "Exécuter un bloc de code seulement si une condition est vraie."
+      },
+      "en": {
+        "question": "What is the purpose of the if statement?",
+        "answer": "To execute a block of code only if a condition is true."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quand utilise-t-on switch plutôt que if-else ?",
+        "réponse": "Quand on doit comparer une variable à de multiples valeurs discrètes."
+      },
+      "en": {
+        "question": "When is switch used instead of if-else?",
+        "answer": "When comparing a variable against multiple discrete values."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle boucle est utilisée lorsqu'on connaît à l'avance le nombre d'itérations ?",
+        "réponse": "La boucle 'for' est idéale."
+      },
+      "en": {
+        "question": "Which loop is used when the number of iterations is known?",
+        "answer": "The 'for' loop is ideal."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle boucle est utilisée lorsque la condition est évaluée avant l'exécution ?",
+        "réponse": "La boucle 'while'."
+      },
+      "en": {
+        "question": "Which loop evaluates the condition before execution?",
+        "answer": "The 'while' loop."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quelle est la particularité de la boucle do-while ?",
+        "réponse": "Elle exécute son corps au moins une fois avant de vérifier la condition."
+      },
+      "en": {
+        "question": "What is the special feature of the do-while loop?",
+        "answer": "It executes its body at least once before checking the condition."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait l'instruction break ?",
+        "réponse": "Elle interrompt une boucle ou un switch prématurément."
+      },
+      "en": {
+        "question": "What does the break statement do?",
+        "answer": "It prematurely exits a loop or a switch."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que fait l'instruction continue ?",
+        "réponse": "Elle saute l'itération courante et passe à la suivante."
+      },
+      "en": {
+        "question": "What does the continue statement do?",
+        "answer": "It skips the current iteration and proceeds to the next."
+      }
+    },
+    {
+      "fr": {
+        "question": "À quoi sert l'instruction return ?",
+        "réponse": "Elle termine immédiatement une méthode et retourne une valeur."
+      },
+      "en": {
+        "question": "What is the purpose of the return statement?",
+        "answer": "It immediately ends a method and returns a value."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on imbriquer des instructions de contrôle en Java ?",
+        "réponse": "Oui, elles peuvent être imbriquées à n'importe quel niveau."
+      },
+      "en": {
+        "question": "Can control statements be nested in Java?",
+        "answer": "Yes, they can be nested at any level."
+      }
+    },
+    {
+      "fr": {
+        "question": "Que se passe-t-il si aucune condition d'un switch n'est remplie ?",
+        "réponse": "Le bloc 'default' est exécuté s'il est défini."
+      },
+      "en": {
+        "question": "What happens if no condition in a switch is met?",
+        "answer": "The 'default' block is executed if defined."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on utiliser break dans un switch en Java ?",
+        "réponse": "Oui, pour éviter l'exécution en cascade."
+      },
+      "en": {
+        "question": "Can we use break in a switch in Java?",
+        "answer": "Yes, to prevent fall-through execution."
+      }
+    },
+    {
+      "fr": {
+        "question": "Comment éviter les erreurs de boucles infinies ?",
+        "réponse": "Assurez-vous que la condition de sortie soit atteignable."
+      },
+      "en": {
+        "question": "How can infinite loop errors be avoided?",
+        "answer": "Ensure the exit condition can be reached."
+      }
+    },
+    {
+      "fr": {
+        "question": "Peut-on utiliser return sans valeur ?",
+        "réponse": "Oui, dans une méthode qui retourne void."
+      },
+      "en": {
+        "question": "Can we use return without a value?",
+        "answer": "Yes, in a method that returns void."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quel est l'avantage des boucles for-each en Java ?",
+        "réponse": "Simplifier l'itération sur des collections sans utiliser d'indices."
+      },
+      "en": {
+        "question": "What is the advantage of for-each loops in Java?",
+        "answer": "Simplifies iteration over collections without using indexes."
+      }
+    },
+    {
+      "fr": {
+        "question": "Une instruction if-else peut-elle remplacer un switch ?",
+        "réponse": "Oui, mais switch est plus lisible pour plusieurs cas discrets."
+      },
+      "en": {
+        "question": "Can an if-else replace a switch?",
+        "answer": "Yes, but switch is more readable for multiple discrete cases."
+      }
+    },
+    {
+      "fr": {
+        "question": "Quels mots-clés gèrent la gestion des exceptions ?",
+        "réponse": "try, catch, finally, throw, throws."
+      },
+      "en": {
+        "question": "Which keywords handle exception management?",
+        "answer": "try, catch, finally, throw, throws."
+      }
+    }
+
+  ]
+}
+

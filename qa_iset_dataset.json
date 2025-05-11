@@ -1,0 +1,2693 @@
+{
+    "qa_categories": {
+        "institution": {
+            "titre": {
+                "fr": "Informations sur l'Institution",
+                "en": "Institution Information"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Quel est le nom complet et le sigle de l'institution ?",
+                        "en": "What is the full name and acronym of the institution?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "nom_complet": "Institut Supérieur des Études Technologiques de Sfax",
+                            "sigle": "ISET Sfax"
+                        },
+                        "en": {
+                            "full_name": "Higher Institute of Technological Studies of Sfax",
+                            "acronym": "ISET Sfax"
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelles sont les coordonnées de l'ISET Sfax ?",
+                        "en": "What are the contact details of ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "adresse": "Route Mahdia Km 2.5, Sfax 3021, Tunisie",
+                            "telephone": "+216 74 240 600",
+                            "fax": "+216 74 240 600",
+                            "email": "contact@sfax.r-iset.tn",
+                            "site_web": "https://www.sfax.r-iset.tn"
+                        },
+                        "en": {
+                            "address": "Mahdia Road Km 2.5, Sfax 3021, Tunisia",
+                            "phone": "+216 74 240 600",
+                            "fax": "+216 74 240 600",
+                            "email": "contact@sfax.r-iset.tn",
+                            "website": "https://www.sfax.r-iset.tn"
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelle est la présentation et la mission de l'ISET Sfax ?",
+                        "en": "What is the presentation and mission of ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "presentation": "L'ISET de Sfax forme de jeunes diplômés experts dotés d'un esprit d'initiative et d'une culture d'entrepreneuriat, capables de s'adapter à toutes les mutations du monde économique. Depuis 1994, l'institut a formé plusieurs milliers d'étudiants qui ont intégré l'univers de l'entreprise en Tunisie et partout dans le monde, dans tous les secteurs d'activité économique.",
+                            "mission": "L'ISET de Sfax a pour vocation première de former des profils aux compétences reconnues, en parfaite adéquation avec les besoins des entreprises. Il accomplit cette mission avec excellence grâce à une offre de formation performante, orientée vers la professionnalisation et la pratique, et étroitement liée à ses partenaires socio-économiques de la région."
+                        },
+                        "en": {
+                            "presentation": "ISET Sfax trains expert graduates with initiative and entrepreneurial spirit, capable of adapting to all economic changes. Since 1994, the institute has trained thousands of students who have joined the business world in Tunisia and around the world, in all economic sectors.",
+                            "mission": "ISET Sfax's primary mission is to train profiles with recognized skills, perfectly aligned with business needs. It accomplishes this mission with excellence through a high-performance training offer, oriented towards professionalization and practice, and closely linked to its socio-economic partners in the region."
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quels sont les objectifs de l'ISET Sfax ?",
+                        "en": "What are the objectives of ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": [
+                            "Former des techniciens supérieurs compétents et prêts à intégrer le marché du travail",
+                            "Encourager l'innovation et la recherche appliquée",
+                            "Collaborer avec les entreprises locales et internationales pour offrir des opportunités de stage et d'emploi aux étudiants"
+                        ],
+                        "en": [
+                            "Train competent senior technicians ready to enter the job market",
+                            "Encourage innovation and applied research",
+                            "Collaborate with local and international companies to provide internship and employment opportunities for students"
+                        ]
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quel est le statut juridique de l'ISET Sfax ?",
+                        "en": "What is the legal status of ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": "L'Institut Supérieur des Etudes Technologiques de Sfax est un établissement public doté de la personnalité civile et de l'autonomie financière. Relevant au ministère de l'Enseignement Supérieur et de la Recherche Scientifique. Sa création est décrétée par la loi n°92-51 du 18 mai 1992.",
+                        "en": "The Higher Institute of Technological Studies of Sfax is a public institution with civil personality and financial autonomy. It reports to the Ministry of Higher Education and Scientific Research. Its creation was decreed by law n°92-51 of May 18, 1992."
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Qui sont les principaux responsables de l'ISET Sfax ?",
+                        "en": "Who are the main officials of ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "directeur": "Bassem JALLOULI",
+                            "secretaire_general": "Fathi Ben Abdallah",
+                            "directeur_etudes": "Slim BEN HLIMA"
+                        },
+                        "en": {
+                            "director": "Bassem JALLOULI",
+                            "general_secretary": "Fathi Ben Abdallah",
+                            "director_of_studies": "Slim BEN HLIMA"
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelles sont les infrastructures disponibles à l'ISET Sfax ?",
+                        "en": "What facilities are available at ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "salles_enseignement": 60,
+                            "amphitheatres": 3,
+                            "laboratoires": 45,
+                            "ateliers": 2,
+                            "salles_lecture": 2,
+                            "bibliotheque": "1 bibliothèque avec 3550 ouvrages",
+                            "autres": [
+                                "1 parking",
+                                "1 buvette",
+                                "3 terrains de sport",
+                                "1 salle d'exposition",
+                                "1 restaurant universitaire"
+                            ]
+                        },
+                        "en": {
+                            "teaching_rooms": 60,
+                            "amphitheaters": 3,
+                            "laboratories": 45,
+                            "workshops": 2,
+                            "reading_rooms": 2,
+                            "library": "1 library with 3550 books",
+                            "other": [
+                                "1 parking lot",
+                                "1 cafeteria",
+                                "3 sports fields",
+                                "1 exhibition hall",
+                                "1 university restaurant"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "departements": {
+            "titre": {
+                "fr": "Départements et Formations",
+                "en": "Departments and Programs"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Quels sont les différents départements de l'ISET Sfax ?",
+                        "en": "What are the different departments at ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": [
+                            "Département des Sciences Économiques et de Gestion",
+                            "Département des Technologies de l'Informatique",
+                            "Département du Génie des Procédés",
+                            "Département du Génie Civil",
+                            "Département du Génie Mécanique"
+                        ],
+                        "en": [
+                            "Department of Economics and Management",
+                            "Department of Computer Technologies",
+                            "Department of Process Engineering",
+                            "Department of Civil Engineering",
+                            "Department of Mechanical Engineering"
+                        ]
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelles sont les informations sur le département des Sciences Économiques et de Gestion ?",
+                        "en": "What information is available about the Department of Economics and Management?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "chef_departement": {
+                                "nom": "Najoua ALOUI",
+                                "email": "aloui.najoua2020@gmail.com",
+                                "telephone": "74431495"
+                            },
+                            "secretaire": "Nadia KAMMOUN",
+                            "formations": {
+                                "licences": [
+                                    {
+                                        "nom": "Comptabilité et Finance",
+                                        "specialite": "Techniques comptables et financières"
+                                    },
+                                    {
+                                        "nom": "Commerce et Distribution",
+                                        "specialite": "Techniques de vente"
+                                    },
+                                    {
+                                        "nom": "Administration des Affaires",
+                                        "specialites": [
+                                            "Management industriel",
+                                            "Logistique et transport",
+                                            "Qualité Hygiène Sécurité et environnement"
+                                        ]
+                                    }
+                                ],
+                                "masters": [
+                                    {
+                                        "nom": "Innovation et Supply Chain Management (ISCM)",
+                                        "lien_candidature": "https://isetsf.rnu.tn/fr/formation/candidature-en-mastere-professionnel"
+                                    },
+                                    {
+                                        "nom": "Management Intégré Qualité, Sécurité au travail et Environnement (MIQSSE)",
+                                        "lien_candidature": "https://isetsf.rnu.tn/fr/formation/candidature-en-mastere-professionnel"
+                                    }
+                                ]
+                            }
+                        },
+                        "en": {
+                            "department_head": {
+                                "name": "Najoua ALOUI",
+                                "email": "aloui.najoua2020@gmail.com",
+                                "phone": "74431495"
+                            },
+                            "secretary": "Nadia KAMMOUN",
+                            "programs": {
+                                "bachelor_degrees": [
+                                    {
+                                        "name": "Accounting and Finance",
+                                        "specialization": "Accounting and financial techniques"
+                                    },
+                                    {
+                                        "name": "Commerce and Distribution",
+                                        "specialization": "Sales techniques"
+                                    },
+                                    {
+                                        "name": "Business Administration",
+                                        "specializations": [
+                                            "Industrial management",
+                                            "Logistics and transport",
+                                            "Quality, Hygiene, Safety and Environment"
+                                        ]
+                                    }
+                                ],
+                                "masters": [
+                                    {
+                                        "name": "Innovation and Supply Chain Management (ISCM)",
+                                        "application_link": "https://isetsf.rnu.tn/fr/formation/candidature-en-mastere-professionnel"
+                                    },
+                                    {
+                                        "name": "Integrated Management of Quality, Occupational Safety and Environment (MIQSSE)",
+                                        "application_link": "https://isetsf.rnu.tn/fr/formation/candidature-en-mastere-professionnel"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelles sont les informations sur le département des Technologies de l'Informatique ?",
+                        "en": "What information is available about the Department of Computer Technologies?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "chef_departement": {
+                                "nom": "Mohamed ELLEUCH",
+                                "email": "elleuch_med@yahoo.fr",
+                                "telephone": "74431425/74431182"
+                            },
+                            "secretaire": "Amel BOURICHA",
+                            "presentation": "Le Département Technologies de l'Informatique de l'ISET de Sfax est un département créé en septembre 2008 suite à la fusion des départements Informatique et STID. Il a une capacité d'accueil de 800 étudiants.",
+                            "formations": {
+                                "licences": [
+                                    {
+                                        "nom": "Développement des Systèmes Informatiques (DSI)",
+                                        "orientation": "Informatique de gestion"
+                                    },
+                                    {
+                                        "nom": "Réseaux et Systèmes Informatiques (RSI)",
+                                        "orientation": "Réseaux informatiques"
+                                    },
+                                    {
+                                        "nom": "Systèmes Embarqués et Mobiles (SEM)",
+                                        "orientation": "Systèmes numériques embarqués"
+                                    }
+                                ],
+                                "masters": [
+                                    {
+                                        "nom": "Développement des Systèmes d'Informations et Réseaux (DSIR)",
+                                        "specialites": [
+                                            "Génie Logiciel et Nouvelles Technologies",
+                                            "Développement IoT"
+                                        ]
+                                    },
+                                    {
+                                        "nom": "Administration des Systèmes, Sécurité et Cloud Computing (ASSC)",
+                                        "specialites": [
+                                            "Sécurité Informatique",
+                                            "Cloud Computing"
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "en": {
+                            "department_head": {
+                                "name": "Mohamed ELLEUCH",
+                                "email": "elleuch_med@yahoo.fr",
+                                "phone": "74431425/74431182"
+                            },
+                            "secretary": "Amel BOURICHA",
+                            "presentation": "The Computer Technologies Department of ISET Sfax was created in September 2008 following the merger of the Computer Science and STID departments. It has a capacity of 800 students.",
+                            "programs": {
+                                "bachelor_degrees": [
+                                    {
+                                        "name": "Information Systems Development (DSI)",
+                                        "orientation": "Business computing"
+                                    },
+                                    {
+                                        "name": "Networks and Information Systems (RSI)",
+                                        "orientation": "Computer networks"
+                                    },
+                                    {
+                                        "name": "Embedded and Mobile Systems (SEM)",
+                                        "orientation": "Embedded digital systems"
+                                    }
+                                ],
+                                "masters": [
+                                    {
+                                        "name": "Information Systems and Networks Development (DSIR)",
+                                        "specializations": [
+                                            "Software Engineering and New Technologies",
+                                            "IoT Development"
+                                        ]
+                                    },
+                                    {
+                                        "name": "Systems Administration, Security and Cloud Computing (ASSC)",
+                                        "specializations": [
+                                            "Computer Security",
+                                            "Cloud Computing"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Qui sont les professeurs du département des Technologies de l'Informatique ?",
+                        "en": "Who are the professors in the Computer Technologies department?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "professeurs": [
+                                {
+                                    "nom": "Malek Chaari",
+                                    "email": "chaarimelek@gmail.com",
+                                    "grade": "Assistant"
+                                },
+                                {
+                                    "nom": "Anwar Boukattaya",
+                                    "email": "boukettayaanwaar@gmail.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Dalila Cheriti",
+                                    "email": "chedalila@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Esleh Elachtar",
+                                    "email": "slachtar@gmail.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Fatma Laribi",
+                                    "email": "fatma.laribi@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Hafedh Souissi",
+                                    "email": "souissi.hafedh17@gmail.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Hedi Hmani",
+                                    "email": "hedi.hmani@gmail.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Imen Daoud",
+                                    "email": "daoud_imen@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Imen Megdiche",
+                                    "email": "megdich.imen@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Ines Nejar",
+                                    "email": "louzelobna@gmail.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Lilia Ayadi",
+                                    "email": "Lilia_ay_zr@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Malika Elmonser",
+                                    "email": "Non disponible",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Manel Ben Salah",
+                                    "email": "manel.bensalah@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Mohamed Ahmad Ben Younes",
+                                    "email": "benyounes_ahmed@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Mohamed Ben Chikha",
+                                    "email": "Non disponible",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Mohamed Elleuch",
+                                    "email": "elleuch_med@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Mohamed Zayani",
+                                    "email": "mohammad.zayyeni@gmail.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Naima Zghal",
+                                    "email": "naima.halouani@gmail.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Oussama Mallouli",
+                                    "email": "Mellouli.oussama@gmail.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Sonia Lahiani",
+                                    "email": "lahiani_sonia@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Walid Dhouib",
+                                    "email": "dhouib.walid@gmail.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Yousri Fakhfakh",
+                                    "email": "isyousri@yahoo.fr",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Zied Hamdi",
+                                    "email": "hamdi-bacha@webmails.com",
+                                    "grade": "Technologue"
+                                },
+                                {
+                                    "nom": "Raoudha Djemal",
+                                    "email": "Raoudha_abid@yahoo.fr",
+                                    "grade": "Professeur d'Enseignement Secondaire"
+                                },
+                                {
+                                    "nom": "Salma Kammoun",
+                                    "email": "salma.kammoun97@yahoo.fr",
+                                    "grade": "Professeur d'Enseignement Secondaire"
+                                },
+                                {
+                                    "nom": "Wassim Jerbi",
+                                    "email": "jerbij@yahoo.fr",
+                                    "grade": "Professeur d'Enseignement Secondaire"
+                                },
+                                {
+                                    "nom": "Slim Rekik",
+                                    "email": "Non disponible",
+                                    "grade": "Professeur Agrégé"
+                                },
+                                {
+                                    "nom": "Abderrahmen Guermazi",
+                                    "email": "abguermazi@gmail.com",
+                                    "grade": "Professeur Technologue"
+                                },
+                                {
+                                    "nom": "Afef Ellouze",
+                                    "email": "samet_afef@yahoo.fr",
+                                    "grade": "Professeur Technologue"
+                                },
+                                {
+                                    "nom": "Atef Boubaker",
+                                    "email": "atef.boubaker@yahoo.fr",
+                                    "grade": "Professeur Technologue"
+                                },
+                                {
+                                    "nom": "Hounaida Moalla",
+                                    "email": "hounaida.fourati@yahoo.fr",
+                                    "grade": "Professeur Technologue"
+                                },
+                                {
+                                    "nom": "Lotfi Tlili",
+                                    "email": "tlili.lotfi@yahoo.fr",
+                                    "grade": "Professeur Technologue"
+                                },
+                                {
+                                    "nom": "Mondher Hdiji",
+                                    "email": "mondherhadiji@gmail.com",
+                                    "grade": "Professeur Technologue"
+                                },
+                                {
+                                    "nom": "Ahmed Jemal",
+                                    "email": "jmlhmd@gmail.com",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Anis Borcheni",
+                                    "email": "borchani_anis@yahoo.fr",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Azer Zairi",
+                                    "email": "azer.zairi@gmail.com",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Faiez Charfi",
+                                    "email": "faiez.charfi@gmail.com",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Habib Chakchouk",
+                                    "email": "chakchouk@gmail.com",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Hassen Ben Ayed",
+                                    "email": "hassan.abdessalem.benayed@gmail.com",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Hassen Ben Rebah",
+                                    "email": "ben_rebah_h@yahoo.fr",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Hassen Hachicha",
+                                    "email": "hachicha.hs@gmail.com",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Hayet Lamine",
+                                    "email": "lamine_hayet@yahoo.fr",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Hbib Amouri",
+                                    "email": "habib.amouri@isetsf.rnu.tn",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Hedia Affes",
+                                    "email": "Hedia.affes@yahoo.fr",
+                                    "grade": "Maître Technologue"
+                                },
+                                {
+                                    "nom": "Malek Zribi",
+                                    "email": "Malek_zribi@yahoo.fr",
+                                    "grade": "Maître Technologue"
+                                }
+                            ]
+                        },
+                        "en": {
+                            "professors": [
+                                {
+                                    "name": "Malek Chaari",
+                                    "email": "chaarimelek@gmail.com",
+                                    "rank": "Assistant"
+                                },
+                                {
+                                    "name": "Anwar Boukattaya",
+                                    "email": "boukettayaanwaar@gmail.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Dalila Cheriti",
+                                    "email": "chedalila@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Esleh Elachtar",
+                                    "email": "slachtar@gmail.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Fatma Laribi",
+                                    "email": "fatma.laribi@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Hafedh Souissi",
+                                    "email": "souissi.hafedh17@gmail.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Hedi Hmani",
+                                    "email": "hedi.hmani@gmail.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Imen Daoud",
+                                    "email": "daoud_imen@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Imen Megdiche",
+                                    "email": "megdich.imen@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Ines Nejar",
+                                    "email": "louzelobna@gmail.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Lilia Ayadi",
+                                    "email": "Lilia_ay_zr@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Malika Elmonser",
+                                    "email": "Not available",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Manel Ben Salah",
+                                    "email": "manel.bensalah@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Mohamed Ahmad Ben Younes",
+                                    "email": "benyounes_ahmed@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Mohamed Ben Chikha",
+                                    "email": "Not available",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Mohamed Elleuch",
+                                    "email": "elleuch_med@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Mohamed Zayani",
+                                    "email": "mohammad.zayyeni@gmail.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Naima Zghal",
+                                    "email": "naima.halouani@gmail.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Oussama Mallouli",
+                                    "email": "Mellouli.oussama@gmail.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Sonia Lahiani",
+                                    "email": "lahiani_sonia@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Walid Dhouib",
+                                    "email": "dhouib.walid@gmail.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Yousri Fakhfakh",
+                                    "email": "isyousri@yahoo.fr",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Zied Hamdi",
+                                    "email": "hamdi-bacha@webmails.com",
+                                    "rank": "Technologist"
+                                },
+                                {
+                                    "name": "Raoudha Djemal",
+                                    "email": "Raoudha_abid@yahoo.fr",
+                                    "rank": "Secondary Education Professor"
+                                },
+                                {
+                                    "name": "Salma Kammoun",
+                                    "email": "salma.kammoun97@yahoo.fr",
+                                    "rank": "Secondary Education Professor"
+                                },
+                                {
+                                    "name": "Wassim Jerbi",
+                                    "email": "jerbij@yahoo.fr",
+                                    "rank": "Secondary Education Professor"
+                                },
+                                {
+                                    "name": "Slim Rekik",
+                                    "email": "Not available",
+                                    "rank": "Associate Professor"
+                                },
+                                {
+                                    "name": "Abderrahmen Guermazi",
+                                    "email": "abguermazi@gmail.com",
+                                    "rank": "Professor Technologist"
+                                },
+                                {
+                                    "name": "Afef Ellouze",
+                                    "email": "samet_afef@yahoo.fr",
+                                    "rank": "Professor Technologist"
+                                },
+                                {
+                                    "name": "Atef Boubaker",
+                                    "email": "atef.boubaker@yahoo.fr",
+                                    "rank": "Professor Technologist"
+                                },
+                                {
+                                    "name": "Hounaida Moalla",
+                                    "email": "hounaida.fourati@yahoo.fr",
+                                    "rank": "Professor Technologist"
+                                },
+                                {
+                                    "name": "Lotfi Tlili",
+                                    "email": "tlili.lotfi@yahoo.fr",
+                                    "rank": "Professor Technologist"
+                                },
+                                {
+                                    "name": "Mondher Hdiji",
+                                    "email": "mondherhadiji@gmail.com",
+                                    "rank": "Professor Technologist"
+                                },
+                                {
+                                    "name": "Ahmed Jemal",
+                                    "email": "jmlhmd@gmail.com",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Anis Borcheni",
+                                    "email": "borchani_anis@yahoo.fr",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Azer Zairi",
+                                    "email": "azer.zairi@gmail.com",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Faiez Charfi",
+                                    "email": "faiez.charfi@gmail.com",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Habib Chakchouk",
+                                    "email": "chakchouk@gmail.com",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Hassen Ben Ayed",
+                                    "email": "hassan.abdessalem.benayed@gmail.com",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Hassen Ben Rebah",
+                                    "email": "ben_rebah_h@yahoo.fr",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Hassen Hachicha",
+                                    "email": "hachicha.hs@gmail.com",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Hayet Lamine",
+                                    "email": "lamine_hayet@yahoo.fr",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Hbib Amouri",
+                                    "email": "habib.amouri@isetsf.rnu.tn",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Hedia Affes",
+                                    "email": "Hedia.affes@yahoo.fr",
+                                    "rank": "Master Technologist"
+                                },
+                                {
+                                    "name": "Malek Zribi",
+                                    "email": "Malek_zribi@yahoo.fr",
+                                    "rank": "Master Technologist"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelles sont les formations proposées par le département des Technologies de l'Informatique ?",
+                        "en": "What programs are offered by the Computer Technologies department?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "licences": [
+                                {
+                                    "nom": "Développement des Systèmes Informatiques (DSI)",
+                                    "specialite": "Informatique de gestion",
+                                    "presentation": "Formation axée sur le développement d'applications et la gestion de systèmes d'information",
+                                    "objectifs": {
+                                        "general": "Former des techniciens supérieurs en développement informatique",
+                                        "specifiques": [
+                                            "Maîtriser les langages de programmation",
+                                            "Concevoir et développer des applications",
+                                            "Gérer des bases de données"
+                                        ]
+                                    },
+                                    "plan_etudes": {
+                                        "semestres": [
+                                            {
+                                                "modules": [
+                                                    {
+                                                        "nom": "Algorithmique et Programmation",
+                                                        "volume_horaire": 60,
+                                                        "credits": 4,
+                                                        "coefficient": 2
+                                                    },
+                                                    {
+                                                        "nom": "Bases de Données",
+                                                        "volume_horaire": 45,
+                                                        "credits": 3,
+                                                        "coefficient": 2
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "conditions_acces": "Baccalauréat scientifique ou technique",
+                                    "metiers": [
+                                        "Développeur d'applications",
+                                        "Analyste programmeur",
+                                        "Administrateur de bases de données"
+                                    ]
+                                },
+                                {
+                                    "nom": "Réseaux et Systèmes Informatiques (RSI)",
+                                    "specialite": "Réseaux informatiques",
+                                    "presentation": "Formation spécialisée dans les réseaux et systèmes informatiques",
+                                    "objectifs": {
+                                        "general": "Former des techniciens en réseaux et systèmes",
+                                        "specifiques": [
+                                            "Configurer et administrer des réseaux",
+                                            "Sécuriser les systèmes informatiques",
+                                            "Gérer l'infrastructure réseau"
+                                        ]
+                                    },
+                                    "plan_etudes": {
+                                        "semestres": [
+                                            {
+                                                "modules": [
+                                                    {
+                                                        "nom": "Réseaux Informatiques",
+                                                        "volume_horaire": 60,
+                                                        "credits": 4,
+                                                        "coefficient": 2
+                                                    },
+                                                    {
+                                                        "nom": "Sécurité Informatique",
+                                                        "volume_horaire": 45,
+                                                        "credits": 3,
+                                                        "coefficient": 2
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "conditions_acces": "Baccalauréat scientifique ou technique",
+                                    "metiers": [
+                                        "Administrateur réseau",
+                                        "Technicien en sécurité informatique",
+                                        "Ingénieur systèmes et réseaux"
+                                    ]
+                                }
+                            ],
+                            "masters": [
+                                {
+                                    "nom": "Développement des Systèmes d'Informations et Réseaux (DSIR)",
+                                    "coordinateur": {
+                                        "nom": "Mohamed Elleuch",
+                                        "email": "elleuch_med@yahoo.fr"
+                                    },
+                                    "comite_direction": [
+                                        "Mohamed Elleuch",
+                                        "Habib Chakchouk",
+                                        "Hassen Ben Ayed"
+                                    ],
+                                    "presentation": "Master professionnel en développement de systèmes d'information et réseaux",
+                                    "points_forts": [
+                                        "Certification Cisco",
+                                        "Certification Microsoft",
+                                        "Projets pratiques avec entreprises"
+                                    ],
+                                    "matieres": [
+                                        "Architecture des systèmes d'information",
+                                        "Développement web avancé",
+                                        "Sécurité des réseaux",
+                                        "Cloud computing"
+                                    ],
+                                    "objectifs": {
+                                        "general": "Former des experts en développement et réseaux",
+                                        "specifiques": [
+                                            "Maîtriser les technologies web avancées",
+                                            "Concevoir des architectures distribuées",
+                                            "Gérer des projets informatiques"
+                                        ]
+                                    },
+                                    "organisation": "4 semestres avec stages en entreprise",
+                                    "plan_etudes": {
+                                        "lien": "https://isetsf.rnu.tn/fr/formation/mastere-dsir",
+                                        "semestres": [
+                                            {
+                                                "modules": [
+                                                    {
+                                                        "nom": "Architecture des SI",
+                                                        "volume_horaire": 60,
+                                                        "credits": 4,
+                                                        "coefficient": 2
+                                                    },
+                                                    {
+                                                        "nom": "Développement Web Avancé",
+                                                        "volume_horaire": 45,
+                                                        "credits": 3,
+                                                        "coefficient": 2
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "specialite": "Développement et Réseaux",
+                                    "conditions_acces": "Licence en informatique ou équivalent",
+                                    "candidature": {
+                                        "description": "Dépôt de dossier en ligne",
+                                        "lien": "https://isetsf.rnu.tn/fr/formation/candidature-en-mastere-professionnel"
+                                    }
+                                }
+                            ],
+                            "formation_continue": {
+                                "licences": [
+                                    "Développement des Systèmes Informatiques",
+                                    "Réseaux et Systèmes Informatiques"
+                                ],
+                                "masters": [
+                                    {
+                                        "nom": "Développement des Systèmes d'Informations et Réseaux",
+                                        "coordinateur": {
+                                            "nom": "Mohamed Elleuch",
+                                            "email": "elleuch_med@yahoo.fr"
+                                        },
+                                        "comite_direction": [
+                                            "Mohamed Elleuch",
+                                            "Habib Chakchouk",
+                                            "Hassen Ben Ayed"
+                                        ],
+                                        "presentation": "Formation continue en développement et réseaux",
+                                        "points_forts": [
+                                            "Adapté aux professionnels",
+                                            "Horaires flexibles",
+                                            "Projets pratiques"
+                                        ],
+                                        "matieres": [
+                                            "Architecture des SI",
+                                            "Développement Web",
+                                            "Réseaux et Sécurité"
+                                        ],
+                                        "objectifs": {
+                                            "general": "Mise à niveau des compétences",
+                                            "specifiques": [
+                                                "Actualisation des connaissances",
+                                                "Développement de nouvelles compétences",
+                                                "Adaptation aux nouvelles technologies"
+                                            ]
+                                        },
+                                        "organisation": "Cours du soir et weekends",
+                                        "plan_etudes": {
+                                            "lien": "https://isetsf.rnu.tn/fr/formation/formation-continue",
+                                            "semestres": [
+                                                {
+                                                    "modules": [
+                                                        {
+                                                            "nom": "Technologies Web",
+                                                            "volume_horaire": 45,
+                                                            "credits": 3,
+                                                            "coefficient": 2
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "specialite": "Développement et Réseaux",
+                                        "conditions_acces": "Expérience professionnelle requise",
+                                        "candidature": {
+                                            "description": "Dépôt de dossier en ligne",
+                                            "lien": "https://isetsf.rnu.tn/fr/formation/formation-continue"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "en": {
+                            "bachelor_degrees": [
+                                {
+                                    "name": "Information Systems Development (DSI)",
+                                    "specialization": "Business computing",
+                                    "presentation": "Program focused on application development and information systems management",
+                                    "objectives": {
+                                        "general": "Train senior technicians in computer development",
+                                        "specific": [
+                                            "Master programming languages",
+                                            "Design and develop applications",
+                                            "Manage databases"
+                                        ]
+                                    },
+                                    "study_plan": {
+                                        "semesters": [
+                                            {
+                                                "modules": [
+                                                    {
+                                                        "name": "Algorithms and Programming",
+                                                        "hours": 60,
+                                                        "credits": 4,
+                                                        "coefficient": 2
+                                                    },
+                                                    {
+                                                        "name": "Databases",
+                                                        "hours": 45,
+                                                        "credits": 3,
+                                                        "coefficient": 2
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "admission_requirements": "Scientific or technical high school diploma",
+                                    "careers": [
+                                        "Application developer",
+                                        "Programmer analyst",
+                                        "Database administrator"
+                                    ]
+                                }
+                            ],
+                            "masters": [
+                                {
+                                    "name": "Information Systems and Networks Development (DSIR)",
+                                    "coordinator": {
+                                        "name": "Mohamed Elleuch",
+                                        "email": "elleuch_med@yahoo.fr"
+                                    },
+                                    "management_committee": [
+                                        "Mohamed Elleuch",
+                                        "Habib Chakchouk",
+                                        "Hassen Ben Ayed"
+                                    ],
+                                    "presentation": "Professional master's in information systems and networks development",
+                                    "strengths": [
+                                        "Cisco certification",
+                                        "Microsoft certification",
+                                        "Practical projects with companies"
+                                    ],
+                                    "subjects": [
+                                        "Information systems architecture",
+                                        "Advanced web development",
+                                        "Network security",
+                                        "Cloud computing"
+                                    ],
+                                    "objectives": {
+                                        "general": "Train experts in development and networks",
+                                        "specific": [
+                                            "Maîtriser les technologies web avancées",
+                                            "Concevoir des architectures distribuées",
+                                            "Gérer des projets informatiques"
+                                        ]
+                                    },
+                                    "organization": "4 semesters with company internships",
+                                    "study_plan": {
+                                        "link": "https://isetsf.rnu.tn/fr/formation/mastere-dsir",
+                                        "semesters": [
+                                            {
+                                                "modules": [
+                                                    {
+                                                        "name": "IS Architecture",
+                                                        "volume_horaire": 60,
+                                                        "credits": 4,
+                                                        "coefficient": 2
+                                                    },
+                                                    {
+                                                        "name": "Advanced Web Development",
+                                                        "volume_horaire": 45,
+                                                        "credits": 3,
+                                                        "coefficient": 2
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "specialization": "Development and Networks",
+                                    "admission_requirements": "Bachelor's in computer science or equivalent",
+                                    "application": {
+                                        "description": "Online application",
+                                        "link": "https://isetsf.rnu.tn/fr/formation/candidature-en-mastere-professionnel"
+                                    }
+                                }
+                            ],
+                            "continuing_education": {
+                                "bachelor_degrees": [
+                                    "Information Systems Development",
+                                    "Networks and Information Systems"
+                                ],
+                                "masters": [
+                                    {
+                                        "name": "Information Systems and Networks Development",
+                                        "coordinator": {
+                                            "name": "Mohamed Elleuch",
+                                            "email": "elleuch_med@yahoo.fr"
+                                        },
+                                        "management_committee": [
+                                            "Mohamed Elleuch",
+                                            "Habib Chakchouk",
+                                            "Hassen Ben Ayed"
+                                        ],
+                                        "presentation": "Continuing education in development and networks",
+                                        "strengths": [
+                                            "Adapted for professionals",
+                                            "Flexible schedules",
+                                            "Practical projects"
+                                        ],
+                                        "subjects": [
+                                            "IS Architecture",
+                                            "Web Development",
+                                            "Networks and Security"
+                                        ],
+                                        "objectives": {
+                                            "general": "Skills upgrading",
+                                            "specific": [
+                                                "Knowledge updating",
+                                                "New skills development",
+                                                "Adaptation to new technologies"
+                                            ]
+                                        },
+                                        "organization": "Evening and weekend classes",
+                                        "study_plan": {
+                                            "link": "https://isetsf.rnu.tn/fr/formation/formation-continue",
+                                            "semesters": [
+                                                {
+                                                    "modules": [
+                                                        {
+                                                            "name": "Web Technologies",
+                                                            "volume_horaire": 45,
+                                                            "credits": 3,
+                                                            "coefficient": 2
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "specialization": "Development and Networks",
+                                        "admission_requirements": "Professional experience required",
+                                        "application": {
+                                            "description": "Online application",
+                                            "link": "https://isetsf.rnu.tn/fr/formation/formation-continue"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelles sont les informations sur les autres départements (Génie des Procédés, Génie Civil, Génie Mécanique) ?",
+                        "en": "What information is available about the other departments (Process Engineering, Civil Engineering, Mechanical Engineering)?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "genie_procedes": {
+                                "chef": {
+                                    "nom": "Yasser RAHMANI",
+                                    "email": "rahmaniyasser@gmail.com",
+                                    "telephone": "22644342"
+                                },
+                                "secretaire": "Houssin HADDAD",
+                                "formations": ["Procédés Chimiques (PC)", "Procédés Agroalimentaires (PA)"]
+                            },
+                            "genie_civil": {
+                                "chef": {
+                                    "nom": "Ali BOULILA",
+                                    "email": "ali.boulila21@gmail.com"
+                                }
+                            },
+                            "genie_mecanique": {
+                                "chef": {
+                                    "nom": "Kamel GUEMRI",
+                                    "email": "kamel.guemri@sfax.r-iset.tn"
+                                },
+                                "formations": [
+                                    "Conception et Fabrication Mécanique (CFM)",
+                                    "Construction Métallique (CM)",
+                                    "Energétique (EN)",
+                                    "Maintenance Industrielle (MI)"
+                                ],
+                                "master": "Instrumentation des Processus et Procédés Industriels (IPPI)"
+                            }
+                        },
+                        "en": {
+                            "process_engineering": {
+                                "head": {
+                                    "name": "Yasser RAHMANI",
+                                    "email": "rahmaniyasser@gmail.com",
+                                    "phone": "22644342"
+                                },
+                                "secretary": "Houssin HADDAD",
+                                "programs": ["Chemical Processes (PC)", "Food Processing (PA)"]
+                            },
+                            "civil_engineering": {
+                                "head": {
+                                    "name": "Ali BOULILA",
+                                    "email": "ali.boulila21@gmail.com"
+                                }
+                            },
+                            "mechanical_engineering": {
+                                "head": {
+                                    "name": "Kamel GUEMRI",
+                                    "email": "kamel.guemri@sfax.r-iset.tn"
+                                },
+                                "programs": [
+                                    "Mechanical Design and Manufacturing (CFM)",
+                                    "Metal Construction (CM)",
+                                    "Energy Engineering (EN)",
+                                    "Industrial Maintenance (MI)"
+                                ],
+                                "master": "Industrial Processes and Procedures Instrumentation (IPPI)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "associations": {
+            "titre": {
+                "fr": "Associations et Vie Étudiante",
+                "en": "Associations and Student Life"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Quelles sont les associations présentes à l'ISET Sfax ?",
+                        "en": "What associations are present at ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": [
+                            {
+                                "nom": "Association des Anciens de l'ISET de Sfax (2AISF)",
+                                "president": {
+                                    "nom": "Nabil KAMMOUN",
+                                    "email": "nabil.kammoun@gmail.com"
+                                },
+                                "presentation": "Association qui regroupe les anciens étudiants de l'ISET Sfax",
+                                "objectifs": [
+                                    "Maintenir le contact entre les anciens étudiants",
+                                    "Faciliter l'insertion professionnelle",
+                                    "Organiser des événements et rencontres"
+                                ],
+                                "contact": {
+                                    "adresse": "ISET Sfax, Route Mahdia Km 2.5",
+                                    "email": "contact@2aisf.org",
+                                    "telephone": "+216 74 240 600"
+                                }
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "ISET Sfax Alumni Association (2AISF)",
+                                "president": {
+                                    "name": "Nabil KAMMOUN",
+                                    "email": "nabil.kammoun@gmail.com"
+                                },
+                                "presentation": "Association that brings together ISET Sfax alumni",
+                                "objectives": [
+                                    "Maintain contact between alumni",
+                                    "Facilitate professional integration",
+                                    "Organize events and meetings"
+                                ],
+                                "contact": {
+                                    "address": "ISET Sfax, Mahdia Road Km 2.5",
+                                    "email": "contact@2aisf.org",
+                                    "phone": "+216 74 240 600"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "projets": {
+            "titre": {
+                "fr": "Projets et Partenariats",
+                "en": "Projects and Partnerships"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Quels sont les principaux projets de l'ISET Sfax ?",
+                        "en": "What are the main projects at ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": [
+                            {
+                                "nom": "Projet de Modernisation de l'Enseignement Supérieur",
+                                "description": "Projet visant à améliorer la qualité de l'enseignement et l'employabilité des diplômés",
+                                "partenaires": [
+                                    "Ministère de l'Enseignement Supérieur",
+                                    "Union Européenne",
+                                    "Entreprises locales"
+                                ]
+                            }
+                        ],
+                        "en": [
+                            {
+                                "name": "Higher Education Modernization Project",
+                                "description": "Project aimed at improving teaching quality and graduate employability",
+                                "partners": [
+                                    "Ministry of Higher Education",
+                                    "European Union",
+                                    "Local companies"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "entreprises": {
+            "titre": {
+                "fr": "Relations Entreprises",
+                "en": "Business Relations"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Comment les entreprises peuvent-elles collaborer avec l'ISET Sfax ?",
+                        "en": "How can companies collaborate with ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "compte_professionnel": {
+                                "presentation": "Les entreprises peuvent créer un compte professionnel pour accéder à différents services",
+                                "avantages": [
+                                    "Accès aux CV des étudiants",
+                                    "Publication d'offres de stages et d'emplois",
+                                    "Participation aux événements professionnels"
+                                ]
+                            },
+                            "types_collaboration": [
+                                "Stages étudiants",
+                                "Projets de fin d'études",
+                                "Formation continue",
+                                "Projets de recherche appliquée"
+                            ]
+                        },
+                        "en": {
+                            "professional_account": {
+                                "presentation": "Companies can create a professional account to access various services",
+                                "benefits": [
+                                    "Access to student CVs",
+                                    "Publication of internship and job offers",
+                                    "Participation in professional events"
+                                ]
+                            },
+                            "collaboration_types": [
+                                "Student internships",
+                                "Final year projects",
+                                "Continuing education",
+                                "Applied research projects"
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "procedures_administratives": {
+            "titre": {
+                "fr": "Procédures Administratives",
+                "en": "Administrative Procedures"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Comment s'inscrire à l'ISET Sfax ?",
+                        "en": "How to enroll at ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "etapes": [
+                                "1. Obtenir une orientation via la plateforme nationale",
+                                "2. Se présenter au bureau d'inscription avec les documents requis",
+                                "3. Payer les frais d'inscription",
+                                "4. Récupérer la carte d'étudiant"
+                            ],
+                            "documents_requis": [
+                                "Copie du baccalauréat",
+                                "Extrait de naissance",
+                                "Photos d'identité",
+                                "Copie de la CIN",
+                                "Fiche de renseignements"
+                            ]
+                        },
+                        "en": {
+                            "steps": [
+                                "1. Get orientation through the national platform",
+                                "2. Visit the registration office with required documents",
+                                "3. Pay registration fees",
+                                "4. Collect student ID card"
+                            ],
+                            "required_documents": [
+                                "Copy of high school diploma",
+                                "Birth certificate",
+                                "ID photos",
+                                "Copy of national ID card",
+                                "Information form"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Comment obtenir un certificat de scolarité ?",
+                        "en": "How to obtain a certificate of enrollment?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "procedure": "Se présenter au bureau de scolarité avec la carte d'étudiant",
+                            "delai": "24-48 heures",
+                            "cout": "Gratuit"
+                        },
+                        "en": {
+                            "procedure": "Visit the student affairs office with your student ID card",
+                            "timeframe": "24-48 hours",
+                            "cost": "Free"
+                        }
+                    }
+                }
+            ]
+        },
+        "acces_information": {
+            "titre": {
+                "fr": "Accès à l'Information",
+                "en": "Access to Information"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Comment accéder aux informations publiques de l'ISET Sfax ?",
+                        "en": "How to access public information at ISET Sfax?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "informations_generales": {
+                                "description": "Toutes les informations générales sont disponibles sur le site web officiel",
+                                "url": "https://www.isetsf.rnu.tn"
+                            },
+                            "politique": "L'ISET Sfax s'engage à la transparence et à l'accès à l'information conformément à la loi",
+                            "references_legales": [
+                                "Loi organique n° 2016-22 du 24 mars 2016",
+                                "Décret gouvernemental n° 2019-54 du 21 janvier 2019"
+                            ],
+                            "formulaires": {
+                                "description": "Des formulaires de demande d'accès à l'information sont disponibles",
+                                "lieu": "Bureau d'ordre ou site web"
+                            }
+                        },
+                        "en": {
+                            "general_information": {
+                                "description": "All general information is available on the official website",
+                                "url": "https://www.isetsf.rnu.tn"
+                            },
+                            "policy": "ISET Sfax is committed to transparency and access to information in accordance with the law",
+                            "legal_references": [
+                                "Organic Law No. 2016-22 of March 24, 2016",
+                                "Government Decree No. 2019-54 of January 21, 2019"
+                            ],
+                            "forms": {
+                                "description": "Information access request forms are available",
+                                "location": "Registry office or website"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "infrastructures": {
+            "titre": {
+                "fr": "Infrastructures et Équipements",
+                "en": "Infrastructure and Equipment"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Quelles sont les infrastructures disponibles pour les étudiants en Technologies de l'Informatique ?",
+                        "en": "What infrastructure is available for Computer Technology students?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "laboratoires": [
+                                {
+                                    "nom": "Laboratoire de Développement Logiciel",
+                                    "equipements": [
+                                        "30 postes de travail",
+                                        "Serveurs de développement",
+                                        "Environnements de développement intégrés"
+                                    ],
+                                    "logiciels": [
+                                        "Visual Studio",
+                                        "Eclipse",
+                                        "IntelliJ IDEA",
+                                        "Git"
+                                    ]
+                                },
+                                {
+                                    "nom": "Laboratoire de Réseaux",
+                                    "equipements": [
+                                        "Routeurs Cisco",
+                                        "Switchs",
+                                        "Serveurs",
+                                        "Équipements de test réseau"
+                                    ],
+                                    "certifications": "Laboratoire certifié Cisco Academy"
+                                },
+                                {
+                                    "nom": "Laboratoire de Systèmes Embarqués",
+                                    "equipements": [
+                                        "Kits de développement Arduino",
+                                        "Raspberry Pi",
+                                        "Capteurs et actionneurs",
+                                        "Oscilloscopes"
+                                    ]
+                                }
+                            ],
+                            "bibliotheque": {
+                                "ressources": [
+                                    "Livres techniques",
+                                    "Revues spécialisées",
+                                    "Accès aux bases de données en ligne",
+                                    "Salle de lecture"
+                                ],
+                                "horaires": "8h-18h du lundi au vendredi"
+                            },
+                            "espaces_etudiants": [
+                                "Salle de travail en groupe",
+                                "Espace détente",
+                                "Cafétéria",
+                                "Salle de sport"
+                            ],
+                            "connexion": {
+                                "wifi": "Couverture totale du campus",
+                                "debit": "100 Mbps",
+                                "acces": "24/7"
+                            }
+                        },
+                        "en": {
+                            "laboratories": [
+                                {
+                                    "name": "Software Development Laboratory",
+                                    "equipment": [
+                                        "30 workstations",
+                                        "Development servers",
+                                        "Integrated development environments"
+                                    ],
+                                    "software": [
+                                        "Visual Studio",
+                                        "Eclipse",
+                                        "IntelliJ IDEA",
+                                        "Git"
+                                    ]
+                                },
+                                {
+                                    "name": "Networks Laboratory",
+                                    "equipment": [
+                                        "Cisco routers",
+                                        "Switches",
+                                        "Servers",
+                                        "Network testing equipment"
+                                    ],
+                                    "certifications": "Cisco Academy certified laboratory"
+                                },
+                                {
+                                    "name": "Embedded Systems Laboratory",
+                                    "equipment": [
+                                        "Arduino development kits",
+                                        "Raspberry Pi",
+                                        "Sensors and actuators",
+                                        "Oscilloscopes"
+                                    ]
+                                }
+                            ],
+                            "library": {
+                                "resources": [
+                                    "Technical books",
+                                    "Specialized journals",
+                                    "Online database access",
+                                    "Reading room"
+                                ],
+                                "hours": "8am-6pm Monday to Friday"
+                            },
+                            "student_spaces": [
+                                "Group work room",
+                                "Relaxation area",
+                                "Cafeteria",
+                                "Sports room"
+                            ],
+                            "connection": {
+                                "wifi": "Full campus coverage",
+                                "speed": "100 Mbps",
+                                "access": "24/7"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "services_etudiants": {
+            "titre": {
+                "fr": "Services aux Étudiants",
+                "en": "Student Services"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Quels services sont offerts aux étudiants ?",
+                        "en": "What services are offered to students?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "orientation": {
+                                "description": "Service d'orientation et d'accompagnement des étudiants",
+                                "activites": [
+                                    "Ateliers de méthodologie",
+                                    "Sessions d'orientation professionnelle",
+                                    "Accompagnement personnalisé"
+                                ]
+                            },
+                            "bureau_des_stages": {
+                                "services": [
+                                    "Aide à la recherche de stage",
+                                    "Préparation aux entretiens",
+                                    "Suivi des stages",
+                                    "Base de données d'entreprises partenaires"
+                                ],
+                                "contact": "bureau.stages@isetsf.rnu.tn"
+                            },
+                            "vie_etudiante": {
+                                "clubs": [
+                                    "Club informatique",
+                                    "Club robotique",
+                                    "Club développement web",
+                                    "Club sécurité informatique"
+                                ],
+                                "evenements": [
+                                    "Hackathons",
+                                    "Conférences techniques",
+                                    "Visites d'entreprises",
+                                    "Journées portes ouvertes"
+                                ]
+                            },
+                            "soutien": {
+                                "psychologique": "Service de soutien psychologique disponible",
+                                "academique": "Tutorat par les étudiants avancés",
+                                "handicap": "Aménagements pour étudiants en situation de handicap"
+                            }
+                        },
+                        "en": {
+                            "orientation": {
+                                "description": "Student orientation and support service",
+                                "activities": [
+                                    "Methodology workshops",
+                                    "Professional orientation sessions",
+                                    "Personalized support"
+                                ]
+                            },
+                            "internship_office": {
+                                "services": [
+                                    "Internship search assistance",
+                                    "Interview preparation",
+                                    "Internship follow-up",
+                                    "Partner companies database"
+                                ],
+                                "contact": "bureau.stages@isetsf.rnu.tn"
+                            },
+                            "student_life": {
+                                "clubs": [
+                                    "Computer club",
+                                    "Robotics club",
+                                    "Web development club",
+                                    "Computer security club"
+                                ],
+                                "events": [
+                                    "Hackathons",
+                                    "Technical conferences",
+                                    "Company visits",
+                                    "Open house days"
+                                ]
+                            },
+                            "support": {
+                                "psychological": "Psychological support service available",
+                                "academic": "Tutoring by advanced students",
+                                "disability": "Accommodations for students with disabilities"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "partenariats": {
+            "titre": {
+                "fr": "Partenariats et Collaborations",
+                "en": "Partnerships and Collaborations"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Quels sont les principaux partenariats du département des Technologies de l'Informatique ?",
+                        "en": "What are the main partnerships of the Computer Technologies department?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "entreprises": [
+                                {
+                                    "nom": "Sofrecom Tunisie",
+                                    "type": "Partenariat de formation",
+                                    "activites": [
+                                        "Stages étudiants",
+                                        "Projets de fin d'études",
+                                        "Formation continue"
+                                    ]
+                                },
+                                {
+                                    "nom": "IBM Tunisie",
+                                    "type": "Partenariat académique",
+                                    "activites": [
+                                        "Accès aux technologies IBM",
+                                        "Certifications",
+                                        "Workshops techniques"
+                                    ]
+                                }
+                            ],
+                            "universites": [
+                                {
+                                    "nom": "Université de Sfax",
+                                    "type": "Collaboration académique",
+                                    "activites": [
+                                        "Échanges d'enseignants",
+                                        "Projets de recherche communs",
+                                        "Accès aux ressources"
+                                    ]
+                                }
+                            ],
+                            "certifications": [
+                                {
+                                    "nom": "Cisco Networking Academy",
+                                    "description": "Programme de certification en réseaux",
+                                    "niveaux": ["CCNA", "CCNP"]
+                                },
+                                {
+                                    "nom": "Microsoft Imagine Academy",
+                                    "description": "Programme de certification Microsoft",
+                                    "niveaux": ["MTA", "MCSA"]
+                                }
+                            ]
+                        },
+                        "en": {
+                            "companies": [
+                                {
+                                    "name": "Sofrecom Tunisia",
+                                    "type": "Training partnership",
+                                    "activities": [
+                                        "Student internships",
+                                        "Final year projects",
+                                        "Continuing education"
+                                    ]
+                                },
+                                {
+                                    "name": "IBM Tunisia",
+                                    "type": "Academic partnership",
+                                    "activities": [
+                                        "Access to IBM technologies",
+                                        "Certifications",
+                                        "Technical workshops"
+                                    ]
+                                }
+                            ],
+                            "universities": [
+                                {
+                                    "name": "University of Sfax",
+                                    "type": "Academic collaboration",
+                                    "activities": [
+                                        "Faculty exchange",
+                                        "Joint research projects",
+                                        "Resource sharing"
+                                    ]
+                                }
+                            ],
+                            "certifications": [
+                                {
+                                    "name": "Cisco Networking Academy",
+                                    "description": "Networking certification program",
+                                    "levels": ["CCNA", "CCNP"]
+                                },
+                                {
+                                    "name": "Microsoft Imagine Academy",
+                                    "description": "Microsoft certification program",
+                                    "levels": ["MTA", "MCSA"]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "matieres_enseignees": {
+            "titre": {
+                "fr": "Matières et Programmes d'Études",
+                "en": "Courses and Study Programs"
+            },
+            "questions": [
+                {
+                    "question": {
+                        "fr": "Quelles sont les matières enseignées en Licence Développement des Systèmes Informatiques (DSI) ?",
+                        "en": "What courses are taught in the Information Systems Development (DSI) Bachelor's program?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "semestre_1": {
+                                "titre": "Semestre 1",
+                                "modules": [
+                                    {
+                                        "nom": "Algorithmique et Structures de Données",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Introduction à la Programmation",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Architecture des Ordinateurs",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Systèmes d'Exploitation",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Mathématiques pour l'Informatique",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Transversal"
+                                    },
+                                    {
+                                        "nom": "Anglais Technique",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Transversal"
+                                    }
+                                ]
+                            },
+                            "semestre_2": {
+                                "titre": "Semestre 2",
+                                "modules": [
+                                    {
+                                        "nom": "Programmation Orientée Objet",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Bases de Données",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Développement Web",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Réseaux Informatiques",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Techniques de Communication",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Transversal"
+                                    }
+                                ]
+                            }
+                        },
+                        "en": {
+                            "semester_1": {
+                                "title": "Semester 1",
+                                "modules": [
+                                    {
+                                        "name": "Algorithms and Data Structures",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Introduction to Programming",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Computer Architecture",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Operating Systems",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Mathematics for Computer Science",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Transversal"
+                                    },
+                                    {
+                                        "name": "Technical English",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Transversal"
+                                    }
+                                ]
+                            },
+                            "semester_2": {
+                                "title": "Semester 2",
+                                "modules": [
+                                    {
+                                        "name": "Object-Oriented Programming",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Databases",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Web Development",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Computer Networks",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Communication Techniques",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Transversal"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelles sont les matières enseignées en Licence Réseaux et Systèmes Informatiques (RSI) ?",
+                        "en": "What courses are taught in the Networks and Information Systems (RSI) Bachelor's program?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "semestre_1": {
+                                "titre": "Semestre 1",
+                                "modules": [
+                                    {
+                                        "nom": "Fondamentaux des Réseaux",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Administration Système Linux",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Sécurité des Réseaux",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Virtualisation et Cloud",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Protocoles de Communication",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Fondamental"
+                                    }
+                                ]
+                            },
+                            "semestre_2": {
+                                "titre": "Semestre 2",
+                                "modules": [
+                                    {
+                                        "nom": "Administration Windows Server",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Services Réseaux",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Technologies Cisco",
+                                        "volume_horaire": 45,
+                                        "credits": 3,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Supervision des Réseaux",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Fondamental"
+                                    },
+                                    {
+                                        "nom": "Scripting pour l'Administration",
+                                        "volume_horaire": 30,
+                                        "credits": 2,
+                                        "type": "Fondamental"
+                                    }
+                                ]
+                            }
+                        },
+                        "en": {
+                            "semester_1": {
+                                "title": "Semester 1",
+                                "modules": [
+                                    {
+                                        "name": "Network Fundamentals",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Linux System Administration",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Network Security",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Virtualization and Cloud",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Communication Protocols",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Core"
+                                    }
+                                ]
+                            },
+                            "semester_2": {
+                                "title": "Semester 2",
+                                "modules": [
+                                    {
+                                        "name": "Windows Server Administration",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Network Services",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Cisco Technologies",
+                                        "hours": 45,
+                                        "credits": 3,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Network Monitoring",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Core"
+                                    },
+                                    {
+                                        "name": "Administration Scripting",
+                                        "hours": 30,
+                                        "credits": 2,
+                                        "type": "Core"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelles sont les matières enseignées en Master DSIR (Développement des Systèmes d'Information et Réseaux) ?",
+                        "en": "What courses are taught in the DSIR (Information Systems and Networks Development) Master's program?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "semestre_1": {
+                                "titre": "Semestre 1",
+                                "modules": [
+                                    {
+                                        "nom": "Algorithmique et optimisation",
+                                        "volume_horaire": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixte"
+                                    },
+                                    {
+                                        "nom": "Atelier Programmation avancée",
+                                        "volume_horaire": 21,
+                                        "credits": 2,
+                                        "coefficient": 2,
+                                        "regime": "Mixte"
+                                    },
+                                    {
+                                        "nom": "Mini-projet 1",
+                                        "volume_horaire": 21,
+                                        "credits": 2,
+                                        "coefficient": 2,
+                                        "regime": "Mixte"
+                                    },
+                                    {
+                                        "nom": "Infogérance et virtualisation",
+                                        "volume_horaire": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixte"
+                                    },
+                                    {
+                                        "nom": "Atelier Cloud Computing",
+                                        "volume_horaire": 42,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixte"
+                                    },
+                                    {
+                                        "nom": "Intelligence artificielle",
+                                        "volume_horaire": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixte"
+                                    }
+                                ]
+                            },
+                            "semestre_2": {
+                                "titre": "Semestre 2",
+                                "modules": [
+                                    {
+                                        "nom": "Certification Machine Learning",
+                                        "volume_horaire": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixte"
+                                    },
+                                    {
+                                        "nom": "Atelier Système intelligent 2",
+                                        "volume_horaire": 42,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixte"
+                                    },
+                                    {
+                                        "nom": "Certification IOT",
+                                        "volume_horaire": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixte"
+                                    }
+                                ]
+                            },
+                            "semestre_3": {
+                                "titre": "Semestre 3",
+                                "options": {
+                                    "option1": {
+                                        "nom": "Génie Logiciel et Nouvelles Technologies",
+                                        "modules": [
+                                            {
+                                                "nom": "Qualité et performance logicielle",
+                                                "volume_horaire": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Méthodes AGILE",
+                                                "volume_horaire": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Atelier test et qualité logicielle",
+                                                "volume_horaire": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            }
+                                        ]
+                                    },
+                                    "option2": {
+                                        "nom": "Réseaux & IoT",
+                                        "modules": [
+                                            {
+                                                "nom": "Réseaux de capteurs sans fil pour l'IOT",
+                                                "volume_horaire": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Protocoles applicatifs pour l'IOT",
+                                                "volume_horaire": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Anglais scientifique",
+                                                "volume_horaire": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Technologie Blockchain",
+                                                "volume_horaire": 42,
+                                                "credits": 3,
+                                                "coefficient": 3,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Simulateurs réseaux",
+                                                "volume_horaire": 42,
+                                                "credits": 3,
+                                                "coefficient": 3,
+                                                "regime": "Mixte"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        "en": {
+                            "semester_1": {
+                                "title": "Semester 1",
+                                "modules": [
+                                    {
+                                        "name": "Algorithms and optimization",
+                                        "hours": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixed"
+                                    },
+                                    {
+                                        "name": "Advanced Programming Workshop",
+                                        "hours": 21,
+                                        "credits": 2,
+                                        "coefficient": 2,
+                                        "regime": "Mixed"
+                                    },
+                                    {
+                                        "name": "Mini-project 1",
+                                        "hours": 21,
+                                        "credits": 2,
+                                        "coefficient": 2,
+                                        "regime": "Mixed"
+                                    },
+                                    {
+                                        "name": "IT Management and Virtualization",
+                                        "hours": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixed"
+                                    },
+                                    {
+                                        "name": "Cloud Computing Workshop",
+                                        "hours": 42,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixed"
+                                    },
+                                    {
+                                        "name": "Artificial Intelligence",
+                                        "hours": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixed"
+                                    }
+                                ]
+                            },
+                            "semester_2": {
+                                "title": "Semester 2",
+                                "modules": [
+                                    {
+                                        "name": "Machine Learning Certification",
+                                        "hours": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixed"
+                                    },
+                                    {
+                                        "name": "Intelligent System Workshop 2",
+                                        "hours": 42,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixed"
+                                    },
+                                    {
+                                        "name": "IOT Certification",
+                                        "hours": 21,
+                                        "credits": 3,
+                                        "coefficient": 3,
+                                        "regime": "Mixed"
+                                    }
+                                ]
+                            },
+                            "semester_3": {
+                                "title": "Semester 3",
+                                "options": {
+                                    "option1": {
+                                        "name": "Software Engineering and New Technologies",
+                                        "modules": [
+                                            {
+                                                "name": "Software Quality and Performance",
+                                                "hours": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "AGILE Methods",
+                                                "hours": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Software Testing and Quality Workshop",
+                                                "hours": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            }
+                                        ]
+                                    },
+                                    "option2": {
+                                        "name": "Networks & IoT",
+                                        "modules": [
+                                            {
+                                                "name": "Wireless Sensor Networks for IoT",
+                                                "hours": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Application Protocols for IoT",
+                                                "hours": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Scientific English",
+                                                "hours": 21,
+                                                "credits": 2,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Blockchain Technology",
+                                                "hours": 42,
+                                                "credits": 3,
+                                                "coefficient": 3,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Network Simulators",
+                                                "hours": 42,
+                                                "credits": 3,
+                                                "coefficient": 3,
+                                                "regime": "Mixed"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "question": {
+                        "fr": "Quelles sont les matières enseignées en Licence Administration des Systèmes, Sécurité et Cloud Computing (ASSC) ?",
+                        "en": "What courses are taught in the Systems Administration, Security and Cloud Computing (ASSC) Bachelor's program?"
+                    },
+                    "reponse": {
+                        "fr": {
+                            "semestre_1": {
+                                "titre": "Semestre 1",
+                                "modules": [
+                                    {
+                                        "nom": "Architecture et Services Réseaux",
+                                        "sous_modules": [
+                                            {
+                                                "nom": "Architecture et protocoles réseaux",
+                                                "volume_horaire": 21,
+                                                "credits": 2,
+                                                "coefficient": 1,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Services réseaux",
+                                                "volume_horaire": 21,
+                                                "credits": 2,
+                                                "coefficient": 1,
+                                                "regime": "Mixte"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "nom": "Administration Systèmes Linux",
+                                        "sous_modules": [
+                                            {
+                                                "nom": "Administration Linux",
+                                                "volume_horaire": 21,
+                                                "credits": 3,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Atelier Administration Linux",
+                                                "volume_horaire": 42,
+                                                "credits": 3,
+                                                "coefficient": 1,
+                                                "regime": "Mixte"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "nom": "Administration Bases de Données",
+                                        "sous_modules": [
+                                            {
+                                                "nom": "Sécurité et administration des BDD",
+                                                "volume_horaire": 21,
+                                                "credits": 3,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Atelier sécurité BDD",
+                                                "volume_horaire": 21,
+                                                "credits": 1.5,
+                                                "coefficient": 1,
+                                                "regime": "Mixte"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "semestre_2": {
+                                "titre": "Semestre 2",
+                                "modules": [
+                                    {
+                                        "nom": "Administration et Supervision des Réseaux",
+                                        "sous_modules": [
+                                            {
+                                                "nom": "Administration & Supervision des réseaux",
+                                                "volume_horaire": 21,
+                                                "credits": 3,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Atelier Supervision des Réseaux",
+                                                "volume_horaire": 21,
+                                                "credits": 2,
+                                                "coefficient": 1,
+                                                "regime": "Mixte"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "nom": "Administration Avancée Linux",
+                                        "sous_modules": [
+                                            {
+                                                "nom": "Administration Avancée Linux",
+                                                "volume_horaire": 21,
+                                                "credits": 3,
+                                                "coefficient": 2,
+                                                "regime": "Mixte"
+                                            },
+                                            {
+                                                "nom": "Atelier Linux avancé",
+                                                "volume_horaire": 42,
+                                                "credits": 3,
+                                                "coefficient": 1,
+                                                "regime": "Mixte"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        "en": {
+                            "semester_1": {
+                                "title": "Semester 1",
+                                "modules": [
+                                    {
+                                        "name": "Network Architecture and Services",
+                                        "sub_modules": [
+                                            {
+                                                "name": "Network Architecture and Protocols",
+                                                "hours": 21,
+                                                "credits": 2,
+                                                "coefficient": 1,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Network Services",
+                                                "hours": 21,
+                                                "credits": 2,
+                                                "coefficient": 1,
+                                                "regime": "Mixed"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Linux Systems Administration",
+                                        "sub_modules": [
+                                            {
+                                                "name": "Linux Administration",
+                                                "hours": 21,
+                                                "credits": 3,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Linux Administration Workshop",
+                                                "hours": 42,
+                                                "credits": 3,
+                                                "coefficient": 1,
+                                                "regime": "Mixed"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Database Administration",
+                                        "sub_modules": [
+                                            {
+                                                "name": "Database Security and Administration",
+                                                "hours": 21,
+                                                "credits": 3,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Database Security Workshop",
+                                                "hours": 21,
+                                                "credits": 1.5,
+                                                "coefficient": 1,
+                                                "regime": "Mixed"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "semester_2": {
+                                "title": "Semester 2",
+                                "modules": [
+                                    {
+                                        "name": "Network Administration and Supervision",
+                                        "sub_modules": [
+                                            {
+                                                "name": "Network Administration & Supervision",
+                                                "hours": 21,
+                                                "credits": 3,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Network Supervision Workshop",
+                                                "hours": 21,
+                                                "credits": 2,
+                                                "coefficient": 1,
+                                                "regime": "Mixed"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Advanced Linux Administration",
+                                        "sub_modules": [
+                                            {
+                                                "name": "Advanced Linux Administration",
+                                                "hours": 21,
+                                                "credits": 3,
+                                                "coefficient": 2,
+                                                "regime": "Mixed"
+                                            },
+                                            {
+                                                "name": "Advanced Linux Workshop",
+                                                "hours": 42,
+                                                "credits": 3,
+                                                "coefficient": 1,
+                                                "regime": "Mixed"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }
+} 

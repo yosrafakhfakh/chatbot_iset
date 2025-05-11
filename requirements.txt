@@ -1,0 +1,11 @@
+flask
+gunicorn
+scikit-learn
+langdetect
+nltk
+numpy
+whoosh
+requests
+python-dotenv
+scipy
+dotenv

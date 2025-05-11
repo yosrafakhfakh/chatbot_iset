@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot ISET</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #eef2f5;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .chat-container {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 25px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      animation: fadeInUp 0.8s ease;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .header img {
+      max-height: 120px;
+      margin-bottom: 10px;
+    }
+
+    .header h4 {
+      color: #0d6efd;
+      font-weight: bold;
+    }
+
+    .header p {
+      font-style: italic;
+      color: #666;
+      font-size: 0.95rem;
+      margin-top: -5px;
+    }
+
+    #chat-box {
+      max-height: 400px;
+      overflow-y: auto;
+      margin-bottom: 20px;
+      padding-right: 10px;
+      padding-left: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    .message {
+      margin: 15px 0;
+      padding: 15px;
+      border-radius: 12px;
+      max-width: 80%;
+      display: inline-block;
+      position: relative;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      transition: background-color 0.3s ease;
+      word-wrap: break-word;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .message.user {
+      background-color: #d0e2ff;
+      color: #003a75;
+      margin-left: auto;
+      text-align: right;
+      border: 1px solid #b3c8f2;
+      border-radius: 12px 12px 0 12px;
+    }
+
+    .message.bot {
+      background-color: #d9fbe6;
+      color: #1b5e20;
+      border: 1px solid #b0e0b0;
+      border-radius: 12px 12px 12px 0;
+    }
+
+    .message .message-text {
+      font-size: 1.1rem;
+      color: inherit;
+    }
+
+    .message .message-text code {
+      background-color: #f1f1f1;
+      padding: 5px;
+      border-radius: 3px;
+      font-size: 0.95rem;
+    }
+
+    .message:hover {
+      background-color: #f1f1f1;
+      cursor: pointer;
+    }
+
+    .vote-buttons {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .vote-buttons button {
+      margin: 0 5px;
+    }
+
+    .loading {
+      text-align: center;
+      font-style: italic;
+      color: #999;
+    }
+
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="chat-container">
+  <div class="header">
+  <img src="logo/logo_p.png" alt="Logo ISET">
+    <h4>🤖 Chatbot ISET</h4>
+    <p>Votre assistant intelligent pour explorer l'ISET</p>
+  </div>
+
+  <div id="chat-box"></div>
+  <div id="loading" class="loading" style="display:none;">Le bot réfléchit...</div>
+
+  <form id="chat-form" class="mt-3">
+    <div class="input-group">
+      <input type="text" id="user-input" class="form-control" placeholder="Posez votre question..." required>
+      <button type="button" class="btn btn-outline-secondary" onclick="startListening()">🎤</button>
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </div>
+  </form>
+</div>
+
+<script>
+  const form = document.getElementById('chat-form');
+  const input = document.getElementById('user-input');
+  const chatBox = document.getElementById('chat-box');
+  const loading = document.getElementById('loading');
+
+  const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+  recognition.lang = 'fr-FR';
+
+  recognition.onresult = function(event) {
+    input.value = event.results[0][0].transcript;
+    form.dispatchEvent(new Event('submit'));
+  };
+
+  function startListening() {
+    recognition.start();
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const question = input.value.trim();
+    if (!question) return;
+
+    showMessage(question, 'user');
+    input.value = '';
+    scrollToBottom();
+    loading.style.display = 'block';
+
+    try {
+      const response = await fetch('/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question })
+      });
+
+      const data = await response.json();
+      const botResponse = typeof data.answer === 'string' ? data.answer : JSON.stringify(data.answer, null, 2);
+
+      showMessage(botResponse, 'bot');
+      addVotingButtons(question, botResponse);
+    } catch (error) {
+      showMessage("Erreur lors de la communication avec le serveur.", 'bot');
+    } finally {
+      loading.style.display = 'none';
+      scrollToBottom();
+    }
+  });
+
+  function showMessage(text, sender) {
+    const msg = document.createElement('div');
+    msg.className = `message ${sender}`;
+    const messageText = document.createElement('div');
+    messageText.className = 'message-text';
+            // Pour les autres réponses
+        messageText.innerHTML = text
+            .replace(/{|}|'|"/g, '')
+            .replace(/,/g, '<br>');
+    
+    msg.appendChild(messageText);
+    chatBox.appendChild(msg);
+}
+
+
+  function addVotingButtons(question, answer) {
+    const container = document.createElement('div');
+    container.className = 'vote-buttons';
+
+    const up = document.createElement('button');
+    up.className = 'btn btn-outline-success btn-sm';
+    up.innerText = '👍';
+    up.onclick = () => sendRating('up', question, answer);
+
+    const down = document.createElement('button');
+    down.className = 'btn btn-outline-danger btn-sm';
+    down.innerText = '👎';
+    down.onclick = () => sendRating('down', question, answer);
+
+    container.appendChild(up);
+    container.appendChild(down);
+    chatBox.appendChild(container);
+  }
+
+  async function sendRating(rating, question, answer) {
+    await fetch('/rate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question, answer, rating })
+    });
+    alert("Merci pour votre retour !");
+  }
+
+  function scrollToBottom() {
+    chatBox.scrollTop = chatBox.scrollHeight;
+  }
+</script>
+
+</body>
+</html>
