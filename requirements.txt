@@ -9,3 +9,6 @@ requests
 python-dotenv
 scipy
 dotenv
+sentence-transformers
+torch
+transformers

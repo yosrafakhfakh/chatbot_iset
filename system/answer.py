@@ -1,10 +1,10 @@
 from langdetect import detect
 from .loader import load_dataset
-from .vectorizer import create_vectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+from .vectorizer import create_embeddings
 from pretraitement import preprocess
+from sentence_transformers.util import cos_sim
 
-# Chargement & préparation
+# Charger les données
 data = load_dataset()
 questions_fr, answers_fr, questions_en, answers_en = [], [], [], []
 
@@ -17,8 +17,8 @@ for category in data['qa_categories'].values():
             questions_en.append(item['question']['en'])
             answers_en.append(item['reponse']['en'])
 
-vectorizer_fr, X_fr = create_vectorizer(questions_fr, 'fr')
-vectorizer_en, X_en = create_vectorizer(questions_en, 'en')
+embeddings_fr = create_embeddings(questions_fr, 'fr')
+embeddings_en = create_embeddings(questions_en, 'en')
 
 def format_answer(answer):
     if isinstance(answer, str):
@@ -45,15 +45,16 @@ def get_answer(user_input):
         lang = detect(user_input)
         if lang not in ['fr', 'en']:
             lang = 'fr'
-        user_input_clean = preprocess(user_input, lang=lang)
+
+        cleaned_input = preprocess(user_input, lang)
+        input_embedding = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2").encode(cleaned_input, convert_to_tensor=True)
+
         if lang == 'fr':
-            vec = vectorizer_fr.transform([user_input_clean])
-            sim = cosine_similarity(vec, X_fr)
+            sim = cos_sim(input_embedding, embeddings_fr)
             idx = sim.argmax()
             return format_answer(answers_fr[idx]) if sim[0][idx] > 0.3 else "Désolé, je n'ai pas compris votre question. Veuillez reformuler."
         else:
-            vec = vectorizer_en.transform([user_input_clean])
-            sim = cosine_similarity(vec, X_en)
+            sim = cos_sim(input_embedding, embeddings_en)
             idx = sim.argmax()
             return format_answer(answers_en[idx]) if sim[0][idx] > 0.3 else "Sorry, I didn't understand your question. Please try rephrasing."
     except Exception as e:
