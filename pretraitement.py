@@ -14,7 +14,8 @@ try:
 except:
     SPACY_AVAILABLE = False
 
-nltk.download('stopwords')
+nltk.data.path.append(r'C:\Users\yosra\AppData\Roaming\nltk_data')
+
 
 def preprocess(text, lang='fr', use_lemmatization=False):
     # 1. Minuscule
